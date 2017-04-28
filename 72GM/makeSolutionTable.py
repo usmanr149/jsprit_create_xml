@@ -1,6 +1,7 @@
 import pandas as pd
 import xml.etree.ElementTree as ET
-import lxml.etree as etree
+import numpy as np
+#import lxml.etree as etree
 import sys
 import time
 
@@ -34,10 +35,74 @@ def getSolution(filename):
 	except IndexError:
 		return df
 
-df = pd.DataFrame(columns = ['vehicle-Id', 'activity', 'job-Id', 'arrTime', 'endTime'])
-for i in range(4):
-	filename = '/home/usman/jsprit/jsprit-examples/output/usman_data_' + str(i) + '.xml'
-	print(filename)
-	df = df.append(getSolution(filename))
+def getUnassignedJobs(filename):
 
-df.to_csv('72GM_solution.csv', index=False)
+	uJobs = []
+
+	tree = ET.parse(filename)
+	root = tree.getroot()
+
+	solutions = root.find('{http://www.w3schools.com}solutions')
+	solution = solutions.findall('{http://www.w3schools.com}solution')[1]
+	try:
+		unassignedJobs = solution.findall('{http://www.w3schools.com}unassignedJobs')[0]
+	except IndexError:
+		return ["nothing_here_folks"]
+
+	for i in unassignedJobs.iter():
+		zig = dict(i.attrib)
+		try:
+			uJobs.append(list(zig.values())[0])
+		except IndexError:
+			pass
+	print(len(uJobs))
+	return uJobs
+
+
+def getUnassigned(filename):
+
+	df = pd.read_csv('ODL_Inputs_72GM.csv')
+
+	unassignedJobs = getUnassignedJobs(filename)
+	df_solution = getSolution(filename)
+
+	###This gives the the list of unassigned jobs for the particular day
+	df_updates = df[df['Id'].isin(unassignedJobs)]
+
+	##Get the assigned jobs as well
+	df_assigned = df[~df['Id'].isin(unassignedJobs)]
+
+	unassignedJobs = [raw_id.split("_")[0] for raw_id in unassignedJobs]
+	assignedJobs = np.array(df_solution['job-Id'])
+	assignedJobs = [raw_id.split("_")[0] for raw_id in assignedJobs]
+	# print(assignedJobs)
+
+	df_updates['raw_id'] = df_updates['Id'].apply(lambda x: x.split("_")[0])
+
+	df_solution = df_solution[df_solution['activity'] == 'delivery']
+	df_solution['raw_id'] = df_solution['job-Id'].apply(lambda x: x.split("_")[0])
+	df_solution['Day'] = df_solution['arrTime'].apply(lambda x: int(float(x) / 24))
+	df_updates = df_updates.merge(df_solution[['raw_id', 'Day']], on='raw_id', how='left')
+
+	df_updates = df_updates.drop_duplicates(subset=['Id'])
+
+	df_updates.to_csv('unassignedJobs.csv', index=False)
+
+if __name__ == "__main__":
+	filename = '/home/usman/jsprit/jsprit-examples/output/clusterd_MWD_72GM.xml'
+	getUnassigned(filename)
+
+	df = getSolution(filename)
+
+
+
+'''
+df = pd.DataFrame(columns = ['vehicle-Id', 'activity', 'job-Id', 'arrTime', 'endTime'])
+
+filename = '/home/usman/jsprit/jsprit-examples/output/clusterd_MWD_72GM.xml'
+print(filename)
+df = df.append(getSolution(filename))
+
+df.to_csv('MWD_72GM_solution.csv', index=False)
+
+'''
