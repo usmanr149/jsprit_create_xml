@@ -1,0 +1,76 @@
+import numpy as np
+import pandas as pd
+import requests
+
+depots = pd.read_csv("data/southside_depots.csv")
+depots.columns = ['depot_name','team_lead','latitude','longitude','start_time','id']
+depots_mat = depots.as_matrix()
+yard_distances = pd.read_csv("distance_yard_services.csv")
+vehicles_72GM = pd.read_csv("data/72GM_vehicles.csv")
+serv_dur = pd.read_csv("service_duration.csv")
+
+services = pd.read_csv("data/turf_services.csv")
+service_points = list(zip(services['latitude'],services['longitude'],services['pk_site_id']))
+
+service_dict = {}
+for x in service_points:
+    service_dict[x[2]] = x
+
+service_dur = dict(serv_dur.as_matrix())
+
+num_vehicles = {'GBY':0,'RBV':0,'OKY':0,'ASY':0,'DON':0,'MWD':0}
+labels = dict(enumerate(['GBY','RBV','OKY','ASY','DON','MWD']))
+
+vehicle_yard = [id.split('-')[0] for id in list(vehicles_72GM['vehicle-id'])]
+for x in vehicle_yard:
+    num_vehicles[x]+=1
+
+load_yard = {k:v*8.75 for k,v in num_vehicles.items()}
+print(load_yard)
+
+# serv_yard = {0:[],1:[],2:[],3:[],4:[],5:[]}
+serv_yard = {0:set(),1:set(),2:set(),3:set(),4:set(),5:set()}
+unassigned = []
+
+yard_distances.reindex(np.random.permutation(yard_distances.index))
+yard_dist = yard_distances.as_matrix()
+for s in yard_dist:
+    sort_dist = sorted(enumerate(s[1:]), key=lambda tup: tup[1])
+    i = 0
+    while i < len(num_vehicles):
+        yard = sort_dist[i]
+        # print(s[0],yard)
+        # print(load_yard[labels[yard[0]]])
+        if load_yard[labels[yard[0]]]-service_dur[s[0]]>=0:
+            load_yard[labels[yard[0]]] -= service_dur[s[0]]
+            # serv_yard[yard[0]].append(s[0])
+            serv_yard[yard[0]].add(s[0])
+            i=100
+        i+=1
+    if i<100:
+        print("Site {} not assigned".format(s[0]))
+        unassigned.append(s[0])
+
+print(load_yard)
+
+for y in range(6):
+    fname="services_yard_{}.csv".format(depots_mat[y][0])
+    with open(fname,"w") as fout:
+        fout.write("pk_site_id,latitude,longitude,yard,distance\n")
+        for s in serv_yard[y]:
+            # print(int(s),service_dict[int(s)])
+            info = service_dict[int(s)]
+            fout.write("{},{},{},{}\n".format(int(s),info[0],info[1],0))
+            # fout.write('\n')
+
+fname="services_yard_all.csv"
+with open(fname, "w") as fout:
+    fout.write("pk_site_id,latitude,longitude,yard,distance\n")
+    for y in range(6):
+        for s in serv_yard[y]:
+            # print(int(s),service_dict[int(s)])
+            info = service_dict[int(s)]
+            fout.write("{},{},{},{},{}\n".format(int(s),info[0],info[1],y,0))
+            # fout.write('\n')
+
+print(unassigned)
