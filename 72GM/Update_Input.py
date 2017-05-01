@@ -83,7 +83,7 @@ def updateInputFile(filename, df_solution, unassignedJobs, d): #an argument spec
 	for i in df_updates.index:
 		if df_updates.ix[i]['raw_id'] in assignedJobs:
 			#if B1 service level, do it within the next 
-			if df_updates.ix[i]['Level'] == 'B1':
+			if df_updates.ix[i]['Level'] == 'B1' and df_updates.ix[i]['required-skills'] == 'neighbourhood':
 				#look at the board
 				if df_updates.ix[i]['Day'] == 0:
 					df_updates.set_value(i, 'start-time', str(10) + "d 06:00:00")
@@ -92,28 +92,28 @@ def updateInputFile(filename, df_solution, unassignedJobs, d): #an argument spec
 					df_updates.set_value(i, 'start-time', str(10) + "d 06:00:00")
 					df_updates.set_value(i, 'end-time', str(13) + "d 14:45:00")
 				if df_updates.ix[i]['Day'] == 2:
-					df_updates.set_value(i, 'start-time', str(10) + "d 06:00:00")
+					df_updates.set_value(i, 'start-time', str(11) + "d 06:00:00")
 					df_updates.set_value(i, 'end-time', str(14) + "d 14:45:00")
 				if df_updates.ix[i]['Day'] == 3:
-					df_updates.set_value(i, 'start-time', str(11) + "d 06:00:00")
+					df_updates.set_value(i, 'start-time', str(12) + "d 06:00:00")
 					df_updates.set_value(i, 'end-time', str(15) + "d 14:45:00")
 				if df_updates.ix[i]['Day'] == 4:
-					df_updates.set_value(i, 'start-time', str(12) + "d 06:00:00")
-					df_updates.set_value(i, 'end-time', str(18) + "d 14:45:00")
-				if df_updates.ix[i]['Day'] == 5:
 					df_updates.set_value(i, 'start-time', str(13) + "d 06:00:00")
-					df_updates.set_value(i, 'end-time', str(18) + "d 14:45:00")
-				if df_updates.ix[i]['Day'] == 6:
+					df_updates.set_value(i, 'end-time', str(16) + "d 14:45:00")
+				if df_updates.ix[i]['Day'] == 5:
 					df_updates.set_value(i, 'start-time', str(14) + "d 06:00:00")
+					df_updates.set_value(i, 'end-time', str(17) + "d 14:45:00")
+				if df_updates.ix[i]['Day'] == 6:
+					df_updates.set_value(i, 'start-time', str(15) + "d 06:00:00")
 					df_updates.set_value(i, 'end-time', str(18) + "d 14:45:00")
 				if df_updates.ix[i]['Day'] == 7:
-					df_updates.set_value(i, 'start-time', str(15) + "d 06:00:00")
+					df_updates.set_value(i, 'start-time', str(16) + "d 06:00:00")
 					df_updates.set_value(i, 'end-time', str(19) + "d 14:45:00")
 				if df_updates.ix[i]['Day'] == 8:
-					df_updates.set_value(i, 'start-time', str(15) + "d 06:00:00")
-					df_updates.set_value(i, 'end-time', str(19) + "d 14:45:00")
+					df_updates.set_value(i, 'start-time', str(17) + "d 06:00:00")
+					df_updates.set_value(i, 'end-time', str(20) + "d 14:45:00")
 				if df_updates.ix[i]['Day'] == 9:
-					df_updates.set_value(i, 'start-time', str(16) + "d 06:00:00")
+					df_updates.set_value(i, 'start-time', str(18) + "d 06:00:00")
 					df_updates.set_value(i, 'end-time', str(20) + "d 14:45:00")
 				#if df_updates.ix[i]['Day'] == 10:
 				#	df_updates.set_value(i, 'start-time', str(15) + "d 06:00:00")
@@ -123,64 +123,6 @@ def updateInputFile(filename, df_solution, unassignedJobs, d): #an argument spec
 						df_updates.set_value(i, 'priority', (11 - df_updates.ix[i]['Day']))
 					else:
 						df_updates.set_value(i, 'priority', 1)
-			elif df_updates.ix[i]['Level'] == 'A1' or df_updates.ix[i]['Level'] == 'A2':
-				if len(df_updates.ix[i]['Id'].split("_")) < 4:
-					df_updates.set_value(i, 'priority', 10)# -(df_updates.ix[i]['Day']+1)%7 + 1)
-				#if int(df_updates.ix[i]['Id'].split("_")[1]) > int(day/6):
-					#look at the board
-					#if day - 7 >= 0:
-					#	df_updates.set_value(i, 'start-time', str(day - 7) + "d 06:00:00")
-					#	df_updates.set_value(i, 'end-time', str(day - 7) + "d 14:45:00")
-			elif df_updates.ix[i]['Level'] == 'PREMIERE':
-				if len(df_updates.ix[i]['Id'].split("_")) < 4:
-					df_updates.set_value(i, 'priority', -(df_updates.ix[i]['Day']+1)%6)
-				#if int(df_updates.ix[i]['Id'].split("_")[1]) >= int(day/5):
-					'''if day == 0:
-						df_updates.set_value(i, 'start-time', str(5) + "d 06:00:00")
-						df_updates.set_value(i, 'end-time', str(6) + "d 14:45:00")
-					if day == 1:
-						df_updates.set_value(i, 'start-time', str(5) + "d 06:00:00")
-						df_updates.set_value(i, 'end-time', str(6) + "d 14:45:00")
-					if day == 2:
-						df_updates.set_value(i, 'start-time', str(8) + "d 06:00:00")
-						df_updates.set_value(i, 'end-time', str(9) + "d 14:45:00")
-					if day == 3:
-						df_updates.set_value(i, 'start-time', str(8) + "d 06:00:00")
-						df_updates.set_value(i, 'end-time', str(9) + "d 14:45:00")
-					if day == 4:
-						df_updates.set_value(i, 'start-time', str(9) + "d 06:00:00")
-						df_updates.set_value(i, 'end-time', str(10) + "d 14:45:00")
-					if day == 5:
-						df_updates.set_value(i, 'start-time', str(11) + "d 06:00:00")
-						df_updates.set_value(i, 'end-time', str(12) + "d 14:45:00")
-					if day == 6:
-						df_updates.set_value(i, 'start-time', str(12) + "d 06:00:00")
-						df_updates.set_value(i, 'end-time', str(13) + "d 14:45:00")
-					if day == 7:
-						df_updates.set_value(i, 'start-time', str(12) + "d 06:00:00")
-						df_updates.set_value(i, 'end-time', str(13) + "d 14:45:00")
-					if day == 8:
-						df_updates.set_value(i, 'start-time', str(11) + "d 06:00:00")
-						df_updates.set_value(i, 'end-time', str(11) + "d 14:45:00")
-					if day == 9:
-						df_updates.set_value(i, 'start-time', str(15) + "d 06:00:00")
-						df_updates.set_value(i, 'end-time', str(15) + "d 14:45:00")
-					if day == 10:
-						df_updates.set_value(i, 'start-time', str(15) + "d 06:00:00")
-						df_updates.set_value(i, 'end-time', str(16) + "d 14:45:00")
-					if day == 11:
-						df_updates.set_value(i, 'start-time', str(16) + "d 06:00:00")
-						df_updates.set_value(i, 'end-time', str(17) + "d 14:45:00")
-					if day == 12:
-						df_updates.set_value(i, 'start-time', str(18) + "d 06:00:00")
-						df_updates.set_value(i, 'end-time', str(19) + "d 14:45:00")
-					if day == 13:
-						df_updates.set_value(i, 'start-time', str(18) + "d 06:00:00")
-						df_updates.set_value(i, 'end-time', str(20) + "d 14:45:00")
-					if day == 14:
-						df_updates.set_value(i, 'start-time', str(19) + "d 06:00:00")
-						df_updates.set_value(i, 'end-time', str(20) + "d 14:45:00")'''
-	#print(len(df_updates))
 
 	return df_updates
 
@@ -188,18 +130,16 @@ if __name__ == '__main__':
 	
 	day = int(sys.argv[1])
 
-	filename = '/home/usman/jsprit/jsprit-examples/output/usman_data_' + str(day) + '.xml'
+	filename = '/home/usman/jsprit/jsprit-examples/output/usman_data_.xml'
 
 	unassignedJobs = getUnassignedJobs(filename)
 	
 	df_solution = getSolution(filename)
 
-	df = updateInputFile('/home/usman/Downloads/Turf_Clusters/ver1.3/72GM/ODL_Inputs_hold_test.csv', 
+	df = updateInputFile('/home/usman/PycharmProjects/jsprit_create_xml/72GM/ODL_Inputs_hold_test.csv',
 		df_solution, unassignedJobs, day)
 	
 	df.drop('Day', axis=1, inplace=True)
 	df.drop_duplicates(inplace=True)
 	#df.drop_duplicates(subset=['Id'], inplace=True)
-	df.to_csv('/home/usman/Downloads/Turf_Clusters/ver1.3/72GM/ODL_Inputs_hold_test.csv', index = False)
-	
-
+	df.to_csv('/home/usman/PycharmProjects/jsprit_create_xml/72GM/ODL_Inputs_hold_test.csv', index = False)

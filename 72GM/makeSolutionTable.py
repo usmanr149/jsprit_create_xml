@@ -86,14 +86,31 @@ def getUnassigned(filename):
 
 	df_updates = df_updates.drop_duplicates(subset=['Id'])
 
-	df_updates.to_csv('unassignedJobs.csv', index=False)
+	return df_updates
 
 if __name__ == "__main__":
-	filename = '/home/usman/jsprit/jsprit-examples/output/clusterd_MWD_72GM.xml'
-	getUnassigned(filename)
+	# for i in range(2):
+	# 	filename = '/home/usman/jsprit/jsprit-examples/output/usman_data_' + str(i) + '.xml'
+	# 	try:
+	# 		df = df.append(getSolution(filename))
+	# 	except NameError:
+	# 		df = getSolution(filename)
 
-	df = getSolution(filename)
+    filename = '/home/usman/jsprit/jsprit-examples/output/usman_data_.xml'
+    df = getSolution(filename)
+    df.to_csv('72GM_solution.csv', index=False)
 
+    #unassigned vehicle
+    veh_used = df['vehicle-Id'].unique()
+    print(veh_used)
+    df_veh = pd.read_csv('72GM_vehicles.csv')
+
+    #get raw-id
+    df_veh['raw_v-id'] = df_veh['vehicle-id'].apply(lambda x: x.split("-")[0])
+
+    df_veh = df_veh[df_veh['raw_v-id'] == "MWD"]
+
+    print(df_veh[~df_veh['vehicle-id'].isin(veh_used)]['vehicle-id'])
 
 
 '''
