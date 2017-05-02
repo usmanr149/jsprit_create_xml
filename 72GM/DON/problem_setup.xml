@@ -1,0 +1,5142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem      xmlns = "http://www.w3schools.com"   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "http://www.w3schools.com vrp_xml_schema.xsd" >
+<problemType>
+<fleetSize>FINITE</fleetSize>
+<fleetComposition>HOMOGENEOUS</fleetComposition>
+</problemType>
+<vehicles>
+<vehicle>
+<id>OKY-72-1_1_4</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>102</start>
+<end>110.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-1_1_5</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>126</start>
+<end>134.75</end>
+</timeSchedule>
+<skills>roadway</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-1_1_6</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>150</start>
+<end>158.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-1_1_0</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>6</start>
+<end>14.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-2_1_4</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>102</start>
+<end>110.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-2_1_5</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>126</start>
+<end>134.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-2_1_6</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>150</start>
+<end>158.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-2_1_0</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>6</start>
+<end>14.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-3_1_4</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>102</start>
+<end>110.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-3_1_5</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>126</start>
+<end>134.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-3_1_6</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>150</start>
+<end>158.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-3_1_0</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>6</start>
+<end>14.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-4_1_4</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>102</start>
+<end>110.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-4_1_5</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>126</start>
+<end>134.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-4_1_6</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>150</start>
+<end>158.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-4_1_0</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>6</start>
+<end>14.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-1_2_4</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>270</start>
+<end>278.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-1_2_5</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>294</start>
+<end>302.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-1_2_6</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>318</start>
+<end>326.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-1_2_0</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>174</start>
+<end>182.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-2_2_4</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>270</start>
+<end>278.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-2_2_5</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>294</start>
+<end>302.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-2_2_6</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>318</start>
+<end>326.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-2_2_0</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>174</start>
+<end>182.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-3_2_4</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>270</start>
+<end>278.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-3_2_5</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>294</start>
+<end>302.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-3_2_6</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>318</start>
+<end>326.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-3_2_0</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>174</start>
+<end>182.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-4_2_4</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>270</start>
+<end>278.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-4_2_5</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>294</start>
+<end>302.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-4_2_6</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>318</start>
+<end>326.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-4_2_0</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>174</start>
+<end>182.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-1_3_4</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>438</start>
+<end>446.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-1_3_5</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>462</start>
+<end>470.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-1_3_6</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>486</start>
+<end>494.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-1_3_0</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>342</start>
+<end>350.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-2_3_4</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>438</start>
+<end>446.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-2_3_5</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>462</start>
+<end>470.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-2_3_6</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>486</start>
+<end>494.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-2_3_0</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>342</start>
+<end>350.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-3_3_4</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>438</start>
+<end>446.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-3_3_5</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>462</start>
+<end>470.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-3_3_6</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>486</start>
+<end>494.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-3_3_0</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>342</start>
+<end>350.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-4_3_4</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>438</start>
+<end>446.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-4_3_5</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>462</start>
+<end>470.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-4_3_6</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>486</start>
+<end>494.75</end>
+</timeSchedule>
+<skills>roadway</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+<vehicle>
+<id>OKY-72-4_3_0</id>
+<typeId>solomonType</typeId>
+<startLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</startLocation>
+<endLocation>
+<id>O'Keefe Yard</id>
+<coord x="-113.50295770000001" y="53.52408381"/>
+</endLocation>
+<timeSchedule>
+<start>342</start>
+<end>350.75</end>
+</timeSchedule>
+<skills>neighbourhood</skills>
+<returnToDepot>true</returnToDepot>
+</vehicle>
+</vehicles>
+<vehicleTypes>
+<type>
+<id>solomonType</id>
+<capacity>10000</capacity>
+<costs>
+<fixed>0.5</fixed>
+<distance>0</distance>
+<time>1</time>
+</costs>
+</type>
+</vehicleTypes>
+<services>
+<service id='103.0_0_B1' type='delivery'>
+<locationId>103</locationId>
+<coord x="-113.4623148" y="53.51147159"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.718421052</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='103.0_1_B1' type='delivery'>
+<locationId>103</locationId>
+<coord x="-113.4623148" y="53.51147159"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.718421052</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='106.0_0_B1' type='delivery'>
+<locationId>106</locationId>
+<coord x="-113.48130079999999" y="53.51372262"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.8657894728</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='106.0_1_B1' type='delivery'>
+<locationId>106</locationId>
+<coord x="-113.48130079999999" y="53.51372262"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.8657894728</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='107.0_0_B1' type='delivery'>
+<locationId>107</locationId>
+<coord x="-113.4792693" y="53.51014172"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.3078947376</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='107.0_1_B1' type='delivery'>
+<locationId>107</locationId>
+<coord x="-113.4792693" y="53.51014172"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.3078947376</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1139.0_0_B1' type='delivery'>
+<locationId>1139</locationId>
+<coord x="-113.4480183" y="53.50890304"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.19999999919999997</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1139.0_1_B1' type='delivery'>
+<locationId>1139</locationId>
+<coord x="-113.4480183" y="53.50890304"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.19999999919999997</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1140.0_0_B1' type='delivery'>
+<locationId>1140</locationId>
+<coord x="-113.44287879999999" y="53.510901000000004"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.1421052624</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1140.0_1_B1' type='delivery'>
+<locationId>1140</locationId>
+<coord x="-113.44287879999999" y="53.510901000000004"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.1421052624</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1174.0_0_B1' type='delivery'>
+<locationId>1174</locationId>
+<coord x="-113.4611437" y="53.50075934"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.43421052720000003</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1174.0_1_B1' type='delivery'>
+<locationId>1174</locationId>
+<coord x="-113.4611437" y="53.50075934"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.43421052720000003</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1175.0_0_B1' type='delivery'>
+<locationId>1175</locationId>
+<coord x="-113.4623646" y="53.50386697"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.4000000008</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1175.0_1_B1' type='delivery'>
+<locationId>1175</locationId>
+<coord x="-113.4623646" y="53.50386697"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.4000000008</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1176.0_0_B1' type='delivery'>
+<locationId>1176</locationId>
+<coord x="-113.46078529999998" y="53.51111583"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.45526315680000007</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1176.0_1_B1' type='delivery'>
+<locationId>1176</locationId>
+<coord x="-113.46078529999998" y="53.51111583"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.45526315680000007</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1187.0_0_B1' type='delivery'>
+<locationId>1187</locationId>
+<coord x="-113.4615795" y="53.502250399999994"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.3289473680000001</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1187.0_1_B1' type='delivery'>
+<locationId>1187</locationId>
+<coord x="-113.4615795" y="53.502250399999994"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.3289473680000001</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1193_0_A2' type='delivery'>
+<locationId>1193</locationId>
+<coord x="-113.45255470000001" y="53.49922599"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.3947368432</duration>
+<timeWindows>
+<timeWindow>
+<start>78.0</start>
+<end>86.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1193_1_A2' type='delivery'>
+<locationId>1193</locationId>
+<coord x="-113.45255470000001" y="53.49922599"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.3947368432</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>254.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1193_2_A2' type='delivery'>
+<locationId>1193</locationId>
+<coord x="-113.45255470000001" y="53.49922599"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.3947368432</duration>
+<timeWindows>
+<timeWindow>
+<start>438.0</start>
+<end>446.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1193.0_0_A2' type='delivery'>
+<locationId>1193</locationId>
+<coord x="-113.45255470000001" y="53.49922599"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.510526315999999</duration>
+<timeWindows>
+<timeWindow>
+<start>150.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1193.0_1_A2' type='delivery'>
+<locationId>1193</locationId>
+<coord x="-113.45255470000001" y="53.49922599"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.510526315999999</duration>
+<timeWindows>
+<timeWindow>
+<start>318.0</start>
+<end>326.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1193.0_2_A2' type='delivery'>
+<locationId>1193</locationId>
+<coord x="-113.45255470000001" y="53.49922599"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.510526315999999</duration>
+<timeWindows>
+<timeWindow>
+<start>486.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1193_0_A2' type='delivery'>
+<locationId>1193</locationId>
+<coord x="-113.45255470000001" y="53.49922599"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.3947368432</duration>
+<timeWindows>
+<timeWindow>
+<start>78.0</start>
+<end>86.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1193_1_A2' type='delivery'>
+<locationId>1193</locationId>
+<coord x="-113.45255470000001" y="53.49922599"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.3947368432</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>254.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1193_2_A2' type='delivery'>
+<locationId>1193</locationId>
+<coord x="-113.45255470000001" y="53.49922599"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.3947368432</duration>
+<timeWindows>
+<timeWindow>
+<start>438.0</start>
+<end>446.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1193.0_0_A2' type='delivery'>
+<locationId>1193</locationId>
+<coord x="-113.45255470000001" y="53.49922599"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.510526315999999</duration>
+<timeWindows>
+<timeWindow>
+<start>150.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1193.0_1_A2' type='delivery'>
+<locationId>1193</locationId>
+<coord x="-113.45255470000001" y="53.49922599"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.510526315999999</duration>
+<timeWindows>
+<timeWindow>
+<start>318.0</start>
+<end>326.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1193.0_2_A2' type='delivery'>
+<locationId>1193</locationId>
+<coord x="-113.45255470000001" y="53.49922599"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.510526315999999</duration>
+<timeWindows>
+<timeWindow>
+<start>486.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1253.0_0_B1' type='delivery'>
+<locationId>1253</locationId>
+<coord x="-113.46000090000001" y="53.49184378"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.49473684240000004</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1253.0_1_B1' type='delivery'>
+<locationId>1253</locationId>
+<coord x="-113.46000090000001" y="53.49184378"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.49473684240000004</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='132.0_0_B1' type='delivery'>
+<locationId>132</locationId>
+<coord x="-113.4242616" y="53.51875284"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.0789473679999997</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='132.0_1_B1' type='delivery'>
+<locationId>132</locationId>
+<coord x="-113.4242616" y="53.51875284"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.0789473679999997</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1342.0_0_B1' type='delivery'>
+<locationId>1342</locationId>
+<coord x="-113.45711899999999" y="53.49972867"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.031578948</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1342.0_1_B1' type='delivery'>
+<locationId>1342</locationId>
+<coord x="-113.45711899999999" y="53.49972867"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.031578948</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1380.0_0_A1' type='delivery'>
+<locationId>1380</locationId>
+<coord x="-113.4562932" y="53.50441537"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.9184210535999999</duration>
+<timeWindows>
+<timeWindow>
+<start>150.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1380.0_1_A1' type='delivery'>
+<locationId>1380</locationId>
+<coord x="-113.4562932" y="53.50441537"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.9184210535999999</duration>
+<timeWindows>
+<timeWindow>
+<start>318.0</start>
+<end>326.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1380.0_2_A1' type='delivery'>
+<locationId>1380</locationId>
+<coord x="-113.4562932" y="53.50441537"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.9184210535999999</duration>
+<timeWindows>
+<timeWindow>
+<start>486.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1446.0_0_B1' type='delivery'>
+<locationId>1446</locationId>
+<coord x="-113.4595989" y="53.49314887"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.3394736832</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1446.0_1_B1' type='delivery'>
+<locationId>1446</locationId>
+<coord x="-113.4595989" y="53.49314887"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.3394736832</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1456.0_0_B1' type='delivery'>
+<locationId>1456</locationId>
+<coord x="-113.44071100000001" y="53.52541651"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.43421052720000003</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1456.0_1_B1' type='delivery'>
+<locationId>1456</locationId>
+<coord x="-113.44071100000001" y="53.52541651"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.43421052720000003</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='147.0_0_B1' type='delivery'>
+<locationId>147</locationId>
+<coord x="-113.44290690000001" y="53.51487708"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.1473684216</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='147.0_1_B1' type='delivery'>
+<locationId>147</locationId>
+<coord x="-113.44290690000001" y="53.51487708"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.1473684216</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1477.0_0_B1' type='delivery'>
+<locationId>1477</locationId>
+<coord x="-113.4198854" y="53.52333467"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0368421048</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1477.0_1_B1' type='delivery'>
+<locationId>1477</locationId>
+<coord x="-113.4198854" y="53.52333467"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0368421048</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1583.0_0_B1' type='delivery'>
+<locationId>1583</locationId>
+<coord x="-113.4573469" y="53.50808986"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.8236842096</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1583.0_1_B1' type='delivery'>
+<locationId>1583</locationId>
+<coord x="-113.4573469" y="53.50808986"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.8236842096</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1622.0_0_B1' type='delivery'>
+<locationId>1622</locationId>
+<coord x="-113.45473799999999" y="53.48954662"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.107894736</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='1622.0_1_B1' type='delivery'>
+<locationId>1622</locationId>
+<coord x="-113.45473799999999" y="53.48954662"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.107894736</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='1652.0_0_B1' type='delivery'>
+<locationId>1652</locationId>
+<coord x="-113.4410902" y="53.50784204"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.1157894736</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1652.0_1_B1' type='delivery'>
+<locationId>1652</locationId>
+<coord x="-113.4410902" y="53.50784204"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.1157894736</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1654.0_0_B1' type='delivery'>
+<locationId>1654</locationId>
+<coord x="-113.46237659999998" y="53.49982618"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.65263158</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1654.0_1_B1' type='delivery'>
+<locationId>1654</locationId>
+<coord x="-113.46237659999998" y="53.49982618"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.65263158</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1674.0_0_A1' type='delivery'>
+<locationId>1674</locationId>
+<coord x="-113.4689413" y="53.50483238"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.40526315760000003</duration>
+<timeWindows>
+<timeWindow>
+<start>126.0</start>
+<end>134.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1674.0_1_A1' type='delivery'>
+<locationId>1674</locationId>
+<coord x="-113.4689413" y="53.50483238"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.40526315760000003</duration>
+<timeWindows>
+<timeWindow>
+<start>294.0</start>
+<end>302.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1674.0_2_A1' type='delivery'>
+<locationId>1674</locationId>
+<coord x="-113.4689413" y="53.50483238"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.40526315760000003</duration>
+<timeWindows>
+<timeWindow>
+<start>486.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1767.0_0_B1' type='delivery'>
+<locationId>1767</locationId>
+<coord x="-113.45204199999999" y="53.48551602"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.10526315759999999</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1767.0_1_B1' type='delivery'>
+<locationId>1767</locationId>
+<coord x="-113.45204199999999" y="53.48551602"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.10526315759999999</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1825.0_0_B1' type='delivery'>
+<locationId>1825</locationId>
+<coord x="-113.46825630000001" y="53.51228056"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.21315789360000004</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1825.0_1_B1' type='delivery'>
+<locationId>1825</locationId>
+<coord x="-113.46825630000001" y="53.51228056"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.21315789360000004</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1853.0_0_B1' type='delivery'>
+<locationId>1853</locationId>
+<coord x="-113.4796675" y="53.51107684"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.1263157896</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1853.0_1_B1' type='delivery'>
+<locationId>1853</locationId>
+<coord x="-113.4796675" y="53.51107684"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.1263157896</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1854.0_0_B1' type='delivery'>
+<locationId>1854</locationId>
+<coord x="-113.44925020000001" y="53.51080393"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.3684210535999999</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1854.0_1_B1' type='delivery'>
+<locationId>1854</locationId>
+<coord x="-113.44925020000001" y="53.51080393"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.3684210535999999</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1867.0_0_B1' type='delivery'>
+<locationId>1867</locationId>
+<coord x="-113.46371429999999" y="53.50596204"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.1236842096</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1867.0_1_B1' type='delivery'>
+<locationId>1867</locationId>
+<coord x="-113.46371429999999" y="53.50596204"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.1236842096</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1868.0_0_B1' type='delivery'>
+<locationId>1868</locationId>
+<coord x="-113.46091159999999" y="53.50873972"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.760526316</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1868.0_1_B1' type='delivery'>
+<locationId>1868</locationId>
+<coord x="-113.46091159999999" y="53.50873972"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.760526316</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1869.0_0_A2' type='delivery'>
+<locationId>1869</locationId>
+<coord x="-113.4487169" y="53.5055051"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.40263157920000003</duration>
+<timeWindows>
+<timeWindow>
+<start>150.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1869.0_1_A2' type='delivery'>
+<locationId>1869</locationId>
+<coord x="-113.4487169" y="53.5055051"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.40263157920000003</duration>
+<timeWindows>
+<timeWindow>
+<start>318.0</start>
+<end>326.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1869.0_2_A2' type='delivery'>
+<locationId>1869</locationId>
+<coord x="-113.4487169" y="53.5055051"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.40263157920000003</duration>
+<timeWindows>
+<timeWindow>
+<start>486.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1870.0_0_B1' type='delivery'>
+<locationId>1870</locationId>
+<coord x="-113.4432727" y="53.50977333"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.22105263120000002</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1870.0_1_B1' type='delivery'>
+<locationId>1870</locationId>
+<coord x="-113.4432727" y="53.50977333"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.22105263120000002</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1877.0_0_B1' type='delivery'>
+<locationId>1877</locationId>
+<coord x="-113.45070859999998" y="53.50650567"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.6368421048</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1877.0_1_B1' type='delivery'>
+<locationId>1877</locationId>
+<coord x="-113.45070859999998" y="53.50650567"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.6368421048</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1894.0_0_B1' type='delivery'>
+<locationId>1894</locationId>
+<coord x="-113.44554550000001" y="53.53897702"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.1499999992</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1894.0_1_B1' type='delivery'>
+<locationId>1894</locationId>
+<coord x="-113.44554550000001" y="53.53897702"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.1499999992</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='1905.0_0_B1' type='delivery'>
+<locationId>1905</locationId>
+<coord x="-113.46638229999999" y="53.48513048"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.84736842</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='1905.0_1_B1' type='delivery'>
+<locationId>1905</locationId>
+<coord x="-113.46638229999999" y="53.48513048"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.84736842</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='2039.0_0_B1' type='delivery'>
+<locationId>2039</locationId>
+<coord x="-113.45716000000002" y="53.51035033"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.10263157920000002</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2039.0_1_B1' type='delivery'>
+<locationId>2039</locationId>
+<coord x="-113.45716000000002" y="53.51035033"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.10263157920000002</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2062.0_0_B1' type='delivery'>
+<locationId>2062</locationId>
+<coord x="-113.45424129999999" y="53.50510071"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.6789473688000001</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2062.0_1_B1' type='delivery'>
+<locationId>2062</locationId>
+<coord x="-113.45424129999999" y="53.50510071"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.6789473688000001</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2085.0_0_B1' type='delivery'>
+<locationId>2085</locationId>
+<coord x="-113.4623617" y="53.50013044"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.1315789464</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2085.0_1_B1' type='delivery'>
+<locationId>2085</locationId>
+<coord x="-113.4623617" y="53.50013044"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.1315789464</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2193.0_0_B1' type='delivery'>
+<locationId>2193</locationId>
+<coord x="-113.4750752" y="53.52148967"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.39473684160000005</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2193.0_1_B1' type='delivery'>
+<locationId>2193</locationId>
+<coord x="-113.4750752" y="53.52148967"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.39473684160000005</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2194.0_0_B1' type='delivery'>
+<locationId>2194</locationId>
+<coord x="-113.46779270000002" y="53.50096985"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.7421052624</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2194.0_1_B1' type='delivery'>
+<locationId>2194</locationId>
+<coord x="-113.46779270000002" y="53.50096985"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.7421052624</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2217.0_0_B1' type='delivery'>
+<locationId>2217</locationId>
+<coord x="-113.4743503" y="53.5254877"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.9552631584</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2217.0_1_B1' type='delivery'>
+<locationId>2217</locationId>
+<coord x="-113.4743503" y="53.5254877"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.9552631584</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2223.0_0_B1' type='delivery'>
+<locationId>2223</locationId>
+<coord x="-113.4566503" y="53.49481141"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.5710526312000002</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2223.0_1_B1' type='delivery'>
+<locationId>2223</locationId>
+<coord x="-113.4566503" y="53.49481141"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.5710526312000002</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2341.0_0_B1' type='delivery'>
+<locationId>2341</locationId>
+<coord x="-113.4527718" y="53.51656641"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.8736842112</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2341.0_1_B1' type='delivery'>
+<locationId>2341</locationId>
+<coord x="-113.4527718" y="53.51656641"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.8736842112</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2386.0_0_B1' type='delivery'>
+<locationId>2386</locationId>
+<coord x="-113.44365490000001" y="53.5388941"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.2631578952</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2386.0_1_B1' type='delivery'>
+<locationId>2386</locationId>
+<coord x="-113.44365490000001" y="53.5388941"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.2631578952</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2409_0_B1' type='delivery'>
+<locationId>2409</locationId>
+<coord x="-113.4843723" y="53.50761008"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.739473684</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2409_1_B1' type='delivery'>
+<locationId>2409</locationId>
+<coord x="-113.4843723" y="53.50761008"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.739473684</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2409_0_B1' type='delivery'>
+<locationId>2409</locationId>
+<coord x="-113.4843723" y="53.50761008"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.739473684</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2409_1_B1' type='delivery'>
+<locationId>2409</locationId>
+<coord x="-113.4843723" y="53.50761008"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.739473684</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2410.0_0_B1' type='delivery'>
+<locationId>2410</locationId>
+<coord x="-113.4812774" y="53.51560934"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>3.3684210528</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2410.0_1_B1' type='delivery'>
+<locationId>2410</locationId>
+<coord x="-113.4812774" y="53.51560934"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>3.3684210528</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2459.0_0_A2' type='delivery'>
+<locationId>2459</locationId>
+<coord x="-113.46585479999999" y="53.50201544"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.631578948</duration>
+<timeWindows>
+<timeWindow>
+<start>126.0</start>
+<end>134.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2459.0_1_A2' type='delivery'>
+<locationId>2459</locationId>
+<coord x="-113.46585479999999" y="53.50201544"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.631578948</duration>
+<timeWindows>
+<timeWindow>
+<start>294.0</start>
+<end>302.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2459.0_2_A2' type='delivery'>
+<locationId>2459</locationId>
+<coord x="-113.46585479999999" y="53.50201544"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.631578948</duration>
+<timeWindows>
+<timeWindow>
+<start>486.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2551.0_0_B1' type='delivery'>
+<locationId>2551</locationId>
+<coord x="-113.42072009999998" y="53.52415337"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0736842096</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2551.0_1_B1' type='delivery'>
+<locationId>2551</locationId>
+<coord x="-113.42072009999998" y="53.52415337"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0736842096</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2552.0_0_B1' type='delivery'>
+<locationId>2552</locationId>
+<coord x="-113.42157759999998" y="53.52490134"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.04999999919999999</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2552.0_1_B1' type='delivery'>
+<locationId>2552</locationId>
+<coord x="-113.42157759999998" y="53.52490134"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.04999999919999999</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2610.0_0_B1' type='delivery'>
+<locationId>2610</locationId>
+<coord x="-113.47972549999999" y="53.53179874"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.139473684</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2610.0_1_B1' type='delivery'>
+<locationId>2610</locationId>
+<coord x="-113.47972549999999" y="53.53179874"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.139473684</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2645.0_0_B1' type='delivery'>
+<locationId>2645</locationId>
+<coord x="-113.4657453" y="53.47831237"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>3.1894736832</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='2645.0_1_B1' type='delivery'>
+<locationId>2645</locationId>
+<coord x="-113.4657453" y="53.47831237"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>3.1894736832</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='270.0_0_B1' type='delivery'>
+<locationId>270</locationId>
+<coord x="-113.4354382" y="53.52290707"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.0947368431999998</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='270.0_1_B1' type='delivery'>
+<locationId>270</locationId>
+<coord x="-113.4354382" y="53.52290707"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.0947368431999998</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2753.0_0_B1' type='delivery'>
+<locationId>2753</locationId>
+<coord x="-113.4796743" y="53.50219799"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.7710526303999998</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2753.0_1_B1' type='delivery'>
+<locationId>2753</locationId>
+<coord x="-113.4796743" y="53.50219799"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.7710526303999998</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='279.0_0_B1' type='delivery'>
+<locationId>279</locationId>
+<coord x="-113.4404997" y="53.52016614"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.342105264</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='279.0_1_B1' type='delivery'>
+<locationId>279</locationId>
+<coord x="-113.4404997" y="53.52016614"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.342105264</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='280.0_0_B1' type='delivery'>
+<locationId>280</locationId>
+<coord x="-113.44271540000001" y="53.52033983"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0394736832</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='280.0_1_B1' type='delivery'>
+<locationId>280</locationId>
+<coord x="-113.44271540000001" y="53.52033983"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0394736832</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2860.0_0_B1' type='delivery'>
+<locationId>2860</locationId>
+<coord x="-113.4810636" y="53.51080315"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.2921052632</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2860.0_1_B1' type='delivery'>
+<locationId>2860</locationId>
+<coord x="-113.4810636" y="53.51080315"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.2921052632</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>374.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='2985_0_B1' type='delivery'>
+<locationId>2985</locationId>
+<coord x="-113.46709059999999" y="53.49343282"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.321052632</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='2985_1_B1' type='delivery'>
+<locationId>2985</locationId>
+<coord x="-113.46709059999999" y="53.49343282"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.321052632</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='2996_0_B1' type='delivery'>
+<locationId>2996</locationId>
+<coord x="-113.46749240000001" y="53.49806329"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.15000000000000002</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='2996_1_B1' type='delivery'>
+<locationId>2996</locationId>
+<coord x="-113.46749240000001" y="53.49806329"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.15000000000000002</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='3254_0_B1' type='delivery'>
+<locationId>3254</locationId>
+<coord x="-113.44650729999998" y="53.52817987"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.3684210528</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3254_1_B1' type='delivery'>
+<locationId>3254</locationId>
+<coord x="-113.44650729999998" y="53.52817987"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.3684210528</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3255_0_B1' type='delivery'>
+<locationId>3255</locationId>
+<coord x="-113.44543590000002" y="53.52735997"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0368421048</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3255_1_B1' type='delivery'>
+<locationId>3255</locationId>
+<coord x="-113.44543590000002" y="53.52735997"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0368421048</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3315_0_B1' type='delivery'>
+<locationId>3315</locationId>
+<coord x="-113.4609639" y="53.52848934"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0236842104</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3315_1_B1' type='delivery'>
+<locationId>3315</locationId>
+<coord x="-113.4609639" y="53.52848934"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0236842104</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3333_0_B1' type='delivery'>
+<locationId>3333</locationId>
+<coord x="-113.44263390000002" y="53.49120185"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.9157894728</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='3333_1_B1' type='delivery'>
+<locationId>3333</locationId>
+<coord x="-113.44263390000002" y="53.49120185"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.9157894728</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='3334_0_B1' type='delivery'>
+<locationId>3334</locationId>
+<coord x="-113.4609268" y="53.5273496"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0552631584</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3334_1_B1' type='delivery'>
+<locationId>3334</locationId>
+<coord x="-113.4609268" y="53.5273496"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0552631584</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3359_0_B1' type='delivery'>
+<locationId>3359</locationId>
+<coord x="-113.4671808" y="53.49844720000001"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.1315789464</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='3359_1_B1' type='delivery'>
+<locationId>3359</locationId>
+<coord x="-113.4671808" y="53.49844720000001"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.1315789464</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='3360_0_B1' type='delivery'>
+<locationId>3360</locationId>
+<coord x="-113.4302362" y="53.515786600000006"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.1815789464000002</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='3360_1_B1' type='delivery'>
+<locationId>3360</locationId>
+<coord x="-113.4302362" y="53.515786600000006"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.1815789464000002</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='3393_0_B1' type='delivery'>
+<locationId>3393</locationId>
+<coord x="-113.45369540000002" y="53.53302012"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.3578947368</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3393_1_B1' type='delivery'>
+<locationId>3393</locationId>
+<coord x="-113.45369540000002" y="53.53302012"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.3578947368</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3394_0_B1' type='delivery'>
+<locationId>3394</locationId>
+<coord x="-113.45578229999998" y="53.53090151"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0763157904</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3394_1_B1' type='delivery'>
+<locationId>3394</locationId>
+<coord x="-113.45578229999998" y="53.53090151"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0763157904</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3395_0_B1' type='delivery'>
+<locationId>3395</locationId>
+<coord x="-113.45469170000001" y="53.5290003"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.760526316</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3395_1_B1' type='delivery'>
+<locationId>3395</locationId>
+<coord x="-113.45469170000001" y="53.5290003"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.760526316</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3396_0_B1' type='delivery'>
+<locationId>3396</locationId>
+<coord x="-113.45496599999998" y="53.5259993"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.026315788799999996</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3396_1_B1' type='delivery'>
+<locationId>3396</locationId>
+<coord x="-113.45496599999998" y="53.5259993"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.026315788799999996</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3411_0_B1' type='delivery'>
+<locationId>3411</locationId>
+<coord x="-113.4509571" y="53.52784101"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.407894736</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3411_1_B1' type='delivery'>
+<locationId>3411</locationId>
+<coord x="-113.4509571" y="53.52784101"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.407894736</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3487_0_B1' type='delivery'>
+<locationId>3487</locationId>
+<coord x="-113.45197240000002" y="53.52895628"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.17368421039999998</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3487_1_B1' type='delivery'>
+<locationId>3487</locationId>
+<coord x="-113.45197240000002" y="53.52895628"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.17368421039999998</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3504_0_A2' type='delivery'>
+<locationId>3504</locationId>
+<coord x="-113.44762040000002" y="53.52502939"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.8631578936</duration>
+<timeWindows>
+<timeWindow>
+<start>126.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3504_1_A2' type='delivery'>
+<locationId>3504</locationId>
+<coord x="-113.44762040000002" y="53.52502939"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.8631578936</duration>
+<timeWindows>
+<timeWindow>
+<start>294.0</start>
+<end>326.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3504_2_A2' type='delivery'>
+<locationId>3504</locationId>
+<coord x="-113.44762040000002" y="53.52502939"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.8631578936</duration>
+<timeWindows>
+<timeWindow>
+<start>462.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3506_0_B1' type='delivery'>
+<locationId>3506</locationId>
+<coord x="-113.43628020000001" y="53.52740586"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.7894736832000001</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3506_1_B1' type='delivery'>
+<locationId>3506</locationId>
+<coord x="-113.43628020000001" y="53.52740586"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.7894736832000001</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3561_0_B1' type='delivery'>
+<locationId>3561</locationId>
+<coord x="-113.4516118" y="53.53510922"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.2105263160000002</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3561_1_B1' type='delivery'>
+<locationId>3561</locationId>
+<coord x="-113.4516118" y="53.53510922"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.2105263160000002</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3618_0_B1' type='delivery'>
+<locationId>3618</locationId>
+<coord x="-113.4645996" y="53.53239598"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.3710526312</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3618_1_B1' type='delivery'>
+<locationId>3618</locationId>
+<coord x="-113.4645996" y="53.53239598"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.3710526312</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3662_0_B1' type='delivery'>
+<locationId>3662</locationId>
+<coord x="-113.4446476" y="53.52694479"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0184210536</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3662_1_B1' type='delivery'>
+<locationId>3662</locationId>
+<coord x="-113.4446476" y="53.52694479"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0184210536</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3692_0_B1' type='delivery'>
+<locationId>3692</locationId>
+<coord x="-113.4675715" y="53.49557322"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.7921052640000001</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='3692_1_B1' type='delivery'>
+<locationId>3692</locationId>
+<coord x="-113.4675715" y="53.49557322"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.7921052640000001</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='382.0_0_B1' type='delivery'>
+<locationId>382</locationId>
+<coord x="-113.47073219999999" y="53.52806581"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>3.2815789464</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='382.0_1_B1' type='delivery'>
+<locationId>382</locationId>
+<coord x="-113.47073219999999" y="53.52806581"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>3.2815789464</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3832_0_B1' type='delivery'>
+<locationId>3832</locationId>
+<coord x="-113.4549801" y="53.53682393"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0631578936</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3832_1_B1' type='delivery'>
+<locationId>3832</locationId>
+<coord x="-113.4549801" y="53.53682393"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0631578936</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='385.0_0_B1' type='delivery'>
+<locationId>385</locationId>
+<coord x="-113.4726713" y="53.53191903"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.3710526312</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='385.0_1_B1' type='delivery'>
+<locationId>385</locationId>
+<coord x="-113.4726713" y="53.53191903"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.3710526312</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3852_0_B1' type='delivery'>
+<locationId>3852</locationId>
+<coord x="-113.4780294" y="53.50452452"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.7368421064</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3852_1_B1' type='delivery'>
+<locationId>3852</locationId>
+<coord x="-113.4780294" y="53.50452452"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.7368421064</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='386.0_0_B1' type='delivery'>
+<locationId>386</locationId>
+<coord x="-113.46194540000002" y="53.52545463"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.4473684216</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='386.0_1_B1' type='delivery'>
+<locationId>386</locationId>
+<coord x="-113.46194540000002" y="53.52545463"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.4473684216</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3958_0_B1' type='delivery'>
+<locationId>3958</locationId>
+<coord x="-113.4508733" y="53.53927859"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.9131578944000001</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3958_1_B1' type='delivery'>
+<locationId>3958</locationId>
+<coord x="-113.4508733" y="53.53927859"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.9131578944000001</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3974_0_B1' type='delivery'>
+<locationId>3974</locationId>
+<coord x="-113.3675824" y="53.50154929"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.3000000008</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='3974_1_B1' type='delivery'>
+<locationId>3974</locationId>
+<coord x="-113.3675824" y="53.50154929"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.3000000008</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4010_0_B1' type='delivery'>
+<locationId>4010</locationId>
+<coord x="-113.4499205" y="53.52534617"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.28157894640000003</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4010_1_B1' type='delivery'>
+<locationId>4010</locationId>
+<coord x="-113.4499205" y="53.52534617"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.28157894640000003</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4035_0_B1' type='delivery'>
+<locationId>4035</locationId>
+<coord x="-113.4595635" y="53.51411138"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.0473684215999999</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4035_1_B1' type='delivery'>
+<locationId>4035</locationId>
+<coord x="-113.4595635" y="53.51411138"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.0473684215999999</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4043_0_B1' type='delivery'>
+<locationId>4043</locationId>
+<coord x="-113.4508368" y="53.53148454"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.4736842096</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4043_1_B1' type='delivery'>
+<locationId>4043</locationId>
+<coord x="-113.4508368" y="53.53148454"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.4736842096</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4087_0_B1' type='delivery'>
+<locationId>4087</locationId>
+<coord x="-113.46703159999998" y="53.48984947"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.6789473688000001</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='4087_1_B1' type='delivery'>
+<locationId>4087</locationId>
+<coord x="-113.46703159999998" y="53.48984947"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.6789473688000001</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='4123_0_B1' type='delivery'>
+<locationId>4123</locationId>
+<coord x="-113.4689726" y="53.5227385"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>3.9736842096</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4123_1_B1' type='delivery'>
+<locationId>4123</locationId>
+<coord x="-113.4689726" y="53.5227385"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>3.9736842096</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4124_0_A2' type='delivery'>
+<locationId>4124</locationId>
+<coord x="-113.4545367" y="53.52360512"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.9894736832</duration>
+<timeWindows>
+<timeWindow>
+<start>126.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4124_1_A2' type='delivery'>
+<locationId>4124</locationId>
+<coord x="-113.4545367" y="53.52360512"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.9894736832</duration>
+<timeWindows>
+<timeWindow>
+<start>294.0</start>
+<end>326.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4124_2_A2' type='delivery'>
+<locationId>4124</locationId>
+<coord x="-113.4545367" y="53.52360512"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.9894736832</duration>
+<timeWindows>
+<timeWindow>
+<start>462.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4125_0_B1' type='delivery'>
+<locationId>4125</locationId>
+<coord x="-113.4461716" y="53.52260208"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.21578947440000001</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4125_1_B1' type='delivery'>
+<locationId>4125</locationId>
+<coord x="-113.4461716" y="53.52260208"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.21578947440000001</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4126_0_B1' type='delivery'>
+<locationId>4126</locationId>
+<coord x="-113.44813559999999" y="53.52239547"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0947368416</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4126_1_B1' type='delivery'>
+<locationId>4126</locationId>
+<coord x="-113.44813559999999" y="53.52239547"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0947368416</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4127_0_B1' type='delivery'>
+<locationId>4127</locationId>
+<coord x="-113.4468263" y="53.52033114"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.4052631584</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4127_1_B1' type='delivery'>
+<locationId>4127</locationId>
+<coord x="-113.4468263" y="53.52033114"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.4052631584</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4198_0_B1' type='delivery'>
+<locationId>4198</locationId>
+<coord x="-113.44705859999999" y="53.53804707"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.95263158</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4198_1_B1' type='delivery'>
+<locationId>4198</locationId>
+<coord x="-113.44705859999999" y="53.53804707"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.95263158</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4255_0_B1' type='delivery'>
+<locationId>4255</locationId>
+<coord x="-113.45679809999999" y="53.52390136"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.3684210528</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4255_1_B1' type='delivery'>
+<locationId>4255</locationId>
+<coord x="-113.45679809999999" y="53.52390136"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.3684210528</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4256_0_B1' type='delivery'>
+<locationId>4256</locationId>
+<coord x="-113.4570992" y="53.52365568"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.08947368480000001</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4256_1_B1' type='delivery'>
+<locationId>4256</locationId>
+<coord x="-113.4570992" y="53.52365568"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.08947368480000001</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4262_0_B1' type='delivery'>
+<locationId>4262</locationId>
+<coord x="-113.4190959" y="53.52051234"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.3078947376</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4262_1_B1' type='delivery'>
+<locationId>4262</locationId>
+<coord x="-113.4190959" y="53.52051234"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.3078947376</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4282_0_A1' type='delivery'>
+<locationId>4282</locationId>
+<coord x="-113.47095459999998" y="53.51772153"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.14473684320000002</duration>
+<timeWindows>
+<timeWindow>
+<start>126.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4282_1_A1' type='delivery'>
+<locationId>4282</locationId>
+<coord x="-113.47095459999998" y="53.51772153"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.14473684320000002</duration>
+<timeWindows>
+<timeWindow>
+<start>294.0</start>
+<end>326.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4282_2_A1' type='delivery'>
+<locationId>4282</locationId>
+<coord x="-113.47095459999998" y="53.51772153"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.14473684320000002</duration>
+<timeWindows>
+<timeWindow>
+<start>462.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4308_0_B1' type='delivery'>
+<locationId>4308</locationId>
+<coord x="-113.4305139" y="53.51979663"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.2157894728</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4308_1_B1' type='delivery'>
+<locationId>4308</locationId>
+<coord x="-113.4305139" y="53.51979663"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.2157894728</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4375_0_B1' type='delivery'>
+<locationId>4375</locationId>
+<coord x="-113.4859926" y="53.50272654"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.8657894736</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4375_1_B1' type='delivery'>
+<locationId>4375</locationId>
+<coord x="-113.4859926" y="53.50272654"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.8657894736</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4376_0_A2' type='delivery'>
+<locationId>4376</locationId>
+<coord x="-113.4590477" y="53.54609059"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.6842105264</duration>
+<timeWindows>
+<timeWindow>
+<start>126.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4376_1_A2' type='delivery'>
+<locationId>4376</locationId>
+<coord x="-113.4590477" y="53.54609059"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.6842105264</duration>
+<timeWindows>
+<timeWindow>
+<start>294.0</start>
+<end>326.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4376_2_A2' type='delivery'>
+<locationId>4376</locationId>
+<coord x="-113.4590477" y="53.54609059"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.6842105264</duration>
+<timeWindows>
+<timeWindow>
+<start>462.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4394_0_A2' type='delivery'>
+<locationId>4394</locationId>
+<coord x="-113.4432593" y="53.52195602"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.1052631584</duration>
+<timeWindows>
+<timeWindow>
+<start>126.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4394_1_A2' type='delivery'>
+<locationId>4394</locationId>
+<coord x="-113.4432593" y="53.52195602"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.1052631584</duration>
+<timeWindows>
+<timeWindow>
+<start>294.0</start>
+<end>326.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4394_2_A2' type='delivery'>
+<locationId>4394</locationId>
+<coord x="-113.4432593" y="53.52195602"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.1052631584</duration>
+<timeWindows>
+<timeWindow>
+<start>462.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4398_0_B1' type='delivery'>
+<locationId>4398</locationId>
+<coord x="-113.36516409999999" y="53.50519941"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.7789473679999999</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4398_1_B1' type='delivery'>
+<locationId>4398</locationId>
+<coord x="-113.36516409999999" y="53.50519941"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.7789473679999999</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4439_0_B1' type='delivery'>
+<locationId>4439</locationId>
+<coord x="-113.4379913" y="53.5179328"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.12368421119999999</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='4439_1_B1' type='delivery'>
+<locationId>4439</locationId>
+<coord x="-113.4379913" y="53.5179328"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.12368421119999999</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='4450_0_B1' type='delivery'>
+<locationId>4450</locationId>
+<coord x="-113.43241450000001" y="53.51408458"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.8236842112000002</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='4450_1_B1' type='delivery'>
+<locationId>4450</locationId>
+<coord x="-113.43241450000001" y="53.51408458"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.8236842112000002</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='4456_0_B1' type='delivery'>
+<locationId>4456</locationId>
+<coord x="-113.4515283" y="53.54312455"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.8947368415999999</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4456_1_B1' type='delivery'>
+<locationId>4456</locationId>
+<coord x="-113.4515283" y="53.54312455"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.8947368415999999</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4490_0_B1' type='delivery'>
+<locationId>4490</locationId>
+<coord x="-113.42821979999998" y="53.49471468"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.8894736839999999</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='4490_1_B1' type='delivery'>
+<locationId>4490</locationId>
+<coord x="-113.42821979999998" y="53.49471468"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.8894736839999999</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='4493_0_B1' type='delivery'>
+<locationId>4493</locationId>
+<coord x="-113.4433172" y="53.51483706"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.4473684208</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4493_1_B1' type='delivery'>
+<locationId>4493</locationId>
+<coord x="-113.4433172" y="53.51483706"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.4473684208</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4521_0_A1' type='delivery'>
+<locationId>4521</locationId>
+<coord x="-113.4701389" y="53.51548244"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.0789473695999998</duration>
+<timeWindows>
+<timeWindow>
+<start>126.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4521_1_A1' type='delivery'>
+<locationId>4521</locationId>
+<coord x="-113.4701389" y="53.51548244"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.0789473695999998</duration>
+<timeWindows>
+<timeWindow>
+<start>294.0</start>
+<end>326.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4521_2_A1' type='delivery'>
+<locationId>4521</locationId>
+<coord x="-113.4701389" y="53.51548244"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.0789473695999998</duration>
+<timeWindows>
+<timeWindow>
+<start>462.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4547_0_B1' type='delivery'>
+<locationId>4547</locationId>
+<coord x="-113.4428855" y="53.52192105"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.1473684216</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4547_1_B1' type='delivery'>
+<locationId>4547</locationId>
+<coord x="-113.4428855" y="53.52192105"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.1473684216</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4550_0_B1' type='delivery'>
+<locationId>4550</locationId>
+<coord x="-113.43241450000001" y="53.51408458"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.22105263120000002</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='4550_1_B1' type='delivery'>
+<locationId>4550</locationId>
+<coord x="-113.43241450000001" y="53.51408458"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.22105263120000002</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='4576_0_B1' type='delivery'>
+<locationId>4576</locationId>
+<coord x="-113.43727890000001" y="53.53142729"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.5894736847999997</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4576_1_B1' type='delivery'>
+<locationId>4576</locationId>
+<coord x="-113.43727890000001" y="53.53142729"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.5894736847999997</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4601_0_B1' type='delivery'>
+<locationId>4601</locationId>
+<coord x="-113.4420834" y="53.52224743"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.5131578936</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4601_1_B1' type='delivery'>
+<locationId>4601</locationId>
+<coord x="-113.4420834" y="53.52224743"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.5131578936</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4603_0_B1' type='delivery'>
+<locationId>4603</locationId>
+<coord x="-113.4305105" y="53.52220826"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.139473684</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4603_1_B1' type='delivery'>
+<locationId>4603</locationId>
+<coord x="-113.4305105" y="53.52220826"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.139473684</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4609_0_B1' type='delivery'>
+<locationId>4609</locationId>
+<coord x="-113.46209609999998" y="53.5307297"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.3315789464</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4609_1_B1' type='delivery'>
+<locationId>4609</locationId>
+<coord x="-113.46209609999998" y="53.5307297"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.3315789464</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4616_0_B1' type='delivery'>
+<locationId>4616</locationId>
+<coord x="-113.4556598" y="53.53934181"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.4368421056</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4616_1_B1' type='delivery'>
+<locationId>4616</locationId>
+<coord x="-113.4556598" y="53.53934181"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.4368421056</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4636_0_B1' type='delivery'>
+<locationId>4636</locationId>
+<coord x="-113.4349257" y="53.49657781"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.318421052</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4636_1_B1' type='delivery'>
+<locationId>4636</locationId>
+<coord x="-113.4349257" y="53.49657781"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.318421052</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4642_0_B1' type='delivery'>
+<locationId>4642</locationId>
+<coord x="-113.4859507" y="53.51287527"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.3157894736</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4642_1_B1' type='delivery'>
+<locationId>4642</locationId>
+<coord x="-113.4859507" y="53.51287527"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.3157894736</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4652_0_B1' type='delivery'>
+<locationId>4652</locationId>
+<coord x="-113.4378236" y="53.51742877"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.15263157840000002</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='4652_1_B1' type='delivery'>
+<locationId>4652</locationId>
+<coord x="-113.4378236" y="53.51742877"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.15263157840000002</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='4653_0_B1' type='delivery'>
+<locationId>4653</locationId>
+<coord x="-113.4706388" y="53.53692936"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.1499999992</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4653_1_B1' type='delivery'>
+<locationId>4653</locationId>
+<coord x="-113.4706388" y="53.53692936"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.1499999992</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4655_0_B1' type='delivery'>
+<locationId>4655</locationId>
+<coord x="-113.47127169999999" y="53.53852272"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.2947368432</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4655_1_B1' type='delivery'>
+<locationId>4655</locationId>
+<coord x="-113.47127169999999" y="53.53852272"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.2947368432</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4662_0_B1' type='delivery'>
+<locationId>4662</locationId>
+<coord x="-113.45926770000001" y="53.52273839"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.8157894744</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4662_1_B1' type='delivery'>
+<locationId>4662</locationId>
+<coord x="-113.45926770000001" y="53.52273839"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.8157894744</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4663_0_B1' type='delivery'>
+<locationId>4663</locationId>
+<coord x="-113.47124769999999" y="53.53129527"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0736842096</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4663_1_B1' type='delivery'>
+<locationId>4663</locationId>
+<coord x="-113.47124769999999" y="53.53129527"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0736842096</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4681_0_B1' type='delivery'>
+<locationId>4681</locationId>
+<coord x="-113.4566562" y="53.49329794"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.9078947376</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4681_1_B1' type='delivery'>
+<locationId>4681</locationId>
+<coord x="-113.4566562" y="53.49329794"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.9078947376</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4684_0_B1' type='delivery'>
+<locationId>4684</locationId>
+<coord x="-113.43930859999999" y="53.53412676"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.8552631576</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='4684_1_B1' type='delivery'>
+<locationId>4684</locationId>
+<coord x="-113.43930859999999" y="53.53412676"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.8552631576</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='511.0_0_B1' type='delivery'>
+<locationId>511</locationId>
+<coord x="-113.46189820000001" y="53.53669821"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>3.7263157896</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='511.0_1_B1' type='delivery'>
+<locationId>511</locationId>
+<coord x="-113.46189820000001" y="53.53669821"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>3.7263157896</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='535.0_0_B1' type='delivery'>
+<locationId>535</locationId>
+<coord x="-113.46702040000001" y="53.53453969"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.12894736799999998</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='535.0_1_B1' type='delivery'>
+<locationId>535</locationId>
+<coord x="-113.46702040000001" y="53.53453969"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.12894736799999998</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='542.0_0_A1' type='delivery'>
+<locationId>542</locationId>
+<coord x="-113.4742138" y="53.519794299999994"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.6315789472</duration>
+<timeWindows>
+<timeWindow>
+<start>126.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='542.0_1_A1' type='delivery'>
+<locationId>542</locationId>
+<coord x="-113.4742138" y="53.519794299999994"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.6315789472</duration>
+<timeWindows>
+<timeWindow>
+<start>294.0</start>
+<end>326.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='542.0_2_A1' type='delivery'>
+<locationId>542</locationId>
+<coord x="-113.4742138" y="53.519794299999994"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.6315789472</duration>
+<timeWindows>
+<timeWindow>
+<start>462.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='561.0_0_B1' type='delivery'>
+<locationId>561</locationId>
+<coord x="-113.4397248" y="53.51932181"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0815789472</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='561.0_1_B1' type='delivery'>
+<locationId>561</locationId>
+<coord x="-113.4397248" y="53.51932181"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0815789472</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='5805_0_B1' type='delivery'>
+<locationId>5805</locationId>
+<coord x="-113.43040220000002" y="53.52704208"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0115789464</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='5805_1_B1' type='delivery'>
+<locationId>5805</locationId>
+<coord x="-113.43040220000002" y="53.52704208"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0115789464</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='596.0_0_B1' type='delivery'>
+<locationId>596</locationId>
+<coord x="-113.4180896" y="53.49914123"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.7368421064</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='596.0_1_B1' type='delivery'>
+<locationId>596</locationId>
+<coord x="-113.4180896" y="53.49914123"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>4.7368421064</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>roadway</requiredSkills>
+</service>
+<service id='643.0_0_B1' type='delivery'>
+<locationId>643</locationId>
+<coord x="-113.44100120000002" y="53.51372686"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.94736842</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='643.0_1_B1' type='delivery'>
+<locationId>643</locationId>
+<coord x="-113.44100120000002" y="53.51372686"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>2.94736842</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='69.0_0_B1' type='delivery'>
+<locationId>69</locationId>
+<coord x="-113.4199973" y="53.51814912"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0842105256</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='69.0_1_B1' type='delivery'>
+<locationId>69</locationId>
+<coord x="-113.4199973" y="53.51814912"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0842105256</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='694.0_0_B1' type='delivery'>
+<locationId>694</locationId>
+<coord x="-113.4517041" y="53.5228885"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.1289473688</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='694.0_1_B1' type='delivery'>
+<locationId>694</locationId>
+<coord x="-113.4517041" y="53.5228885"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>1.1289473688</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='735.0_0_A1' type='delivery'>
+<locationId>735</locationId>
+<coord x="-113.46676070000001" y="53.50944504"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.9394736832000001</duration>
+<timeWindows>
+<timeWindow>
+<start>126.0</start>
+<end>158.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='735.0_1_A1' type='delivery'>
+<locationId>735</locationId>
+<coord x="-113.46676070000001" y="53.50944504"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.9394736832000001</duration>
+<timeWindows>
+<timeWindow>
+<start>294.0</start>
+<end>326.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='735.0_2_A1' type='delivery'>
+<locationId>735</locationId>
+<coord x="-113.46676070000001" y="53.50944504"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.9394736832000001</duration>
+<timeWindows>
+<timeWindow>
+<start>462.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='809.0_0_B1' type='delivery'>
+<locationId>809</locationId>
+<coord x="-113.45410919999999" y="53.52644386"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.06052631520000001</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='809.0_1_B1' type='delivery'>
+<locationId>809</locationId>
+<coord x="-113.45410919999999" y="53.52644386"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.06052631520000001</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='841.0_0_B1' type='delivery'>
+<locationId>841</locationId>
+<coord x="-113.4443855" y="53.52354243"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.39473684160000005</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='841.0_1_B1' type='delivery'>
+<locationId>841</locationId>
+<coord x="-113.4443855" y="53.52354243"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.39473684160000005</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='881.0_0_B1' type='delivery'>
+<locationId>881</locationId>
+<coord x="-113.45885" y="53.50248620000001"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.4157894736</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='881.0_1_B1' type='delivery'>
+<locationId>881</locationId>
+<coord x="-113.45885" y="53.50248620000001"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.4157894736</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='947.0_0_B1' type='delivery'>
+<locationId>947</locationId>
+<coord x="-113.4560504" y="53.50190593"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.28684210559999995</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='947.0_1_B1' type='delivery'>
+<locationId>947</locationId>
+<coord x="-113.4560504" y="53.50190593"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.28684210559999995</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='985.0_0_B1' type='delivery'>
+<locationId>985</locationId>
+<coord x="-113.4687706" y="53.501875600000005"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0763157904</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='985.0_1_B1' type='delivery'>
+<locationId>985</locationId>
+<coord x="-113.4687706" y="53.501875600000005"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.0763157904</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='995.0_0_B1' type='delivery'>
+<locationId>995</locationId>
+<coord x="-113.4519433" y="53.52440917"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.042105264</duration>
+<timeWindows>
+<timeWindow>
+<start>6.0</start>
+<end>230.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+<service id='995.0_1_B1' type='delivery'>
+<locationId>995</locationId>
+<coord x="-113.4519433" y="53.52440917"/>
+<capacity-demand>1</capacity-demand>
+<priority>1</priority>
+<duration>0.042105264</duration>
+<timeWindows>
+<timeWindow>
+<start>246.0</start>
+<end>494.75</end>
+</timeWindow>
+</timeWindows>
+<requiredSkills>neighbourhood</requiredSkills>
+</service>
+</services>
+</problem>
