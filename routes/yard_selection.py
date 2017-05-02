@@ -24,7 +24,7 @@ for d in services_mat:
 
 def road_distance(p1,p2):
     r = requests.get(url.format(p1[1],p1[0],p2[1],p2[0]))
-    # print(r.url)
+    print(r.url)
     res = r.json()
     route_info = res['routes'][0]
     # pprint.pprint(route_info['distance'])

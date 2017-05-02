@@ -14,7 +14,7 @@ def create_xml_for_vehicle(start, end):
     df_vehicle_72GM.drop_duplicates(inplace=True)
     df_vehicle_72GM['yard'] = df_vehicle_72GM['vehicle-id'].apply(lambda x: x.split("-")[0])
     #select the yard
-    new_df_vehicle_72GM = df_vehicle_72GM[df_vehicle_72GM['yard'] == 'MWD']
+    new_df_vehicle_72GM = df_vehicle_72GM[df_vehicle_72GM['yard'] == 'GBY']
     #select the time wimdow
     new_df_vehicle_72GM = new_df_vehicle_72GM[(new_df_vehicle_72GM['start-time'] > start) & (new_df_vehicle_72GM['end-time'] < end)]
     print("Number of neighbourhood vehicle: {0}".format(len(new_df_vehicle_72GM[new_df_vehicle_72GM['skills'] == 'neighbourhood'])))
@@ -44,11 +44,11 @@ def create_xml_for_vehicle(start, end):
 
 
 def create_xml_for_turf():
-    df = pd.read_csv('/home/usman/PycharmProjects/jsprit_create_xml/72GM/services_depots_millwoods.csv')
+    df = pd.read_csv('/home/usman/PycharmProjects/jsprit_create_xml/72GM/GBY/services_yard_Gold Bar Yard')
     df = df.rename(columns={'pk_site_id': 'raw-Id'})
     df['raw-Id'] = df['raw-Id'].apply(lambda x: int(x))
 
-    df_72GM = pd.read_csv('/home/usman/PycharmProjects/jsprit_create_xml/72GM/ODL_Inputs_hold_test.csv')
+    df_72GM = pd.read_csv('/home/usman/PycharmProjects/jsprit_create_xml/72GM/GBY/ODL_Inputs_hold_test.csv')
     df_72GM.drop_duplicates(subset=['Id'], inplace=True)
     df_72GM['raw-Id'] = df_72GM['Id'].apply(lambda x: int(float(x.split("_")[0])))
 
@@ -57,8 +57,6 @@ def create_xml_for_turf():
 
     df_72GM.dropna(subset=['Id'], inplace=True)
 
-
-    
     df_72GM['start-time'] = df_72GM['start-time'].apply(lambda x: fix_time(x))
     df_72GM['end-time'] = df_72GM['end-time'].apply(lambda x: fix_time(x))
 
@@ -135,7 +133,9 @@ def getUnassignedJobs(filename):
 
 def to_xml_turfs(df, filename=None, mode='w', start=0):
     print("Input: ", len(df))
-    
+
+    print(df[df['required-skills'] =='neighbourhood']['service-duration'].sum()*24)
+    print(df[df['required-skills'] =='roadway']['service-duration'].sum()*24)
     def row_to_xml(row):
         xml = ["<service id='{0}' type='delivery'>".format(row['Id'])]
         xml.append('<locationId>{0}</locationId>'.format(str(row['raw-Id'])))
@@ -175,5 +175,5 @@ if __name__ == '__main__':
     xml.append(create_xml_for_turf())
     xml.append('</problem>')
     #print("\n".join(xml))
-    with open('/home/usman/PycharmProjects/jsprit_create_xml/72GM/problem_setup.xml', 'w') as f:
+    with open('/home/usman/PycharmProjects/jsprit_create_xml/72GM/GBY/problem_setup.xml', 'w') as f:
         f.write("\n".join(xml))
