@@ -141,8 +141,9 @@ def to_xml_turfs(df, filename=None, mode='w', start=0):
         xml.append('<locationId>{0}</locationId>'.format(str(row['raw-Id'])))
         xml.append('<coord x="{0}" y="{1}"/>'.format(row['longitude'], row['latitude']))
         xml.append('<capacity-demand>1</capacity-demand>')
-        #xml.append('<priority>1</priority>'.format(row['priority']))
-        xml.append('<duration>{0}</duration>'.format(row['service-duration']*24*0.85))
+        #play around with the multiplicative factor to make sure all or almost all the stops are serviced and all or almost vehicles are used.
+        #don't make it too small or large, I found 0.85 ato 1.05 is a good range. Try to stay within that.
+        xml.append('<duration>{0}</duration>'.format(row['service-duration']*24*1.0))
         xml.append('<timeWindows>')
         xml.append('<timeWindow>')
         if row['Level'] == 'B1':
