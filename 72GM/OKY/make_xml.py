@@ -5,11 +5,11 @@ import random
 
 import numpy as np
 
-df_ = pd.read_csv('/home/usman/Downloads/Turf_Clusters/ver1.3/72GM/Equipment_Inventory - Sheet3.csv')
+df_ = pd.read_csv('/home/analytics/PycharmProjects/jsprit_create_xml/72GM/Data/Equipment_Inventory - Sheet3.csv')
 
 def create_xml_for_vehicle(start, end):
     
-    df_vehicle_72GM = pd.read_csv('/home/usman/Downloads/Turf_Clusters/ver1.3/72GM/72GM_vehicles.csv')
+    df_vehicle_72GM = pd.read_csv('/home/analytics/PycharmProjects/jsprit_create_xml/72GM/Data/72GM_vehicles.csv')
 
     df_vehicle_72GM.drop_duplicates(inplace=True)
     df_vehicle_72GM['yard'] = df_vehicle_72GM['vehicle-id'].apply(lambda x: x.split("-")[0])
@@ -44,11 +44,12 @@ def create_xml_for_vehicle(start, end):
 
 
 def create_xml_for_turf():
-    df = pd.read_csv("/home/usman/PycharmProjects/jsprit_create_xml/72GM/OKY/services_yard_O'Keefe Yard")
+    df = pd.read_csv("/home/analytics/PycharmProjects/jsprit_create_xml/72GM/OKY/services_yard_O"
+                     "'Keefe Yard")
     df = df.rename(columns={'pk_site_id': 'raw-Id'})
     df['raw-Id'] = df['raw-Id'].apply(lambda x: int(x))
 
-    df_72GM = pd.read_csv('/home/usman/PycharmProjects/jsprit_create_xml/72GM/OKY/ODL_Inputs_hold_test.csv')
+    df_72GM = pd.read_csv('/home/analytics/PycharmProjects/jsprit_create_xml/72GM/Data/ODL_Inputs_72GM.csv')
     df_72GM.drop_duplicates(subset=['Id'], inplace=True)
     df_72GM['raw-Id'] = df_72GM['Id'].apply(lambda x: int(float(x.split("_")[0])))
 
@@ -133,18 +134,32 @@ def getUnassignedJobs(filename):
 
 def to_xml_turfs(df, filename=None, mode='w', start=0):
     print("Input: ", len(df))
-    
+
+    print(df[df['required-skills'] =='neighbourhood']['service-duration'].sum()*24)
+    print(df[df['required-skills'] =='roadway']['service-duration'].sum()*24)
     def row_to_xml(row):
         xml = ["<service id='{0}' type='delivery'>".format(row['Id'])]
         xml.append('<locationId>{0}</locationId>'.format(str(row['raw-Id'])))
         xml.append('<coord x="{0}" y="{1}"/>'.format(row['longitude'], row['latitude']))
         xml.append('<capacity-demand>1</capacity-demand>')
-        xml.append('<priority>1</priority>'.format(row['priority']))
-        xml.append('<duration>{0}</duration>'.format(row['service-duration']*24))
+        #xml.append('<priority>1</priority>'.format(row['priority']))
+        xml.append('<duration>{0}</duration>'.format(row['service-duration']*24*0.85))
         xml.append('<timeWindows>')
         xml.append('<timeWindow>')
-        xml.append('<start>{0}</start>'.format(row['start-time']))
-        xml.append('<end>{0}</end>'.format(row['end-time']))
+        if row['Level'] == 'A1' or row['Level'] == 'A2':
+            if len(row['Id'].split("_")) == 3:
+                start_at = fix_time(str(int(float(row['Id'].split("_")[1]))*7 +0) +"d 06:00:00")
+                end_at = fix_time(str(int(float(row['Id'].split("_")[1]))*7 +6) +"d 14:45:00")
+                xml.append('<start>{0}</start>'.format(start_at))
+                xml.append('<end>{0}</end>'.format(end_at))
+            if len(row['Id'].split("_")) == 4:
+                start_at = fix_time(str(int(float(row['Id'].split("_")[2]))*7 +0) +"d 06:00:00")
+                end_at = fix_time(str(int(float(row['Id'].split("_")[2]))*7 +6) +"d 14:45:00")
+                xml.append('<start>{0}</start>'.format(start_at))
+                xml.append('<end>{0}</end>'.format(end_at))
+        else:
+            xml.append('<start>{0}</start>'.format(row['start-time']))
+            xml.append('<end>{0}</end>'.format(row['end-time']))
         xml.append('</timeWindow>')
         xml.append('</timeWindows>')
         xml.append('<requiredSkills>{0}</requiredSkills>'.format(row['required-skills']))
@@ -173,5 +188,5 @@ if __name__ == '__main__':
     xml.append(create_xml_for_turf())
     xml.append('</problem>')
     #print("\n".join(xml))
-    with open('/home/usman/PycharmProjects/jsprit_create_xml/72GM/OKY/problem_setup.xml', 'w') as f:
+    with open('/home/analytics/PycharmProjects/jsprit_create_xml/72GM/OKY/problem_setup.xml', 'w') as f:
         f.write("\n".join(xml))

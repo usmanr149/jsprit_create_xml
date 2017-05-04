@@ -61,7 +61,7 @@ def getUnassignedJobs(filename):
 
 def getUnassigned(filename):
 
-	df = pd.read_csv('ODL_Inputs_72GM.csv')
+	df = pd.read_csv('../Data/ODL_Inputs_72GM.csv')
 
 	unassignedJobs = getUnassignedJobs(filename)
 	df_solution = getSolution(filename)
@@ -75,7 +75,6 @@ def getUnassigned(filename):
 	unassignedJobs = [raw_id.split("_")[0] for raw_id in unassignedJobs]
 	assignedJobs = np.array(df_solution['job-Id'])
 	assignedJobs = [raw_id.split("_")[0] for raw_id in assignedJobs]
-	# print(assignedJobs)
 
 	df_updates['raw_id'] = df_updates['Id'].apply(lambda x: x.split("_")[0])
 
@@ -89,29 +88,24 @@ def getUnassigned(filename):
 	return df_updates
 
 if __name__ == "__main__":
-	# for i in range(2):
-	# 	filename = '/home/usman/jsprit/jsprit-examples/output/usman_data_' + str(i) + '.xml'
-	# 	try:
-	# 		df = df.append(getSolution(filename))
-	# 	except NameError:
-	# 		df = getSolution(filename)
 
-    filename = '/home/usman/jsprit/jsprit-examples/output/usman_data_.xml'
+    filename = 'ASY_solution.xml'
+
     df = getSolution(filename)
-    df.to_csv('72GM_solution.csv', index=False)
+    print(getUnassigned(filename))
+    #df.to_csv('GBY_solution.csv', index=False)
 
     #unassigned vehicle
     veh_used = df['vehicle-Id'].unique()
-    print(veh_used)
-    df_veh = pd.read_csv('72GM_vehicles.csv')
+    #print(veh_used)
+    df_veh = pd.read_csv('../Data/72GM_vehicles.csv')
 
     #get raw-id
     df_veh['raw_v-id'] = df_veh['vehicle-id'].apply(lambda x: x.split("-")[0])
 
-    df_veh = df_veh[df_veh['raw_v-id'] == "MWD"]
+    df_veh = df_veh[df_veh['raw_v-id'] == "ASY"]
 
     print(df_veh[~df_veh['vehicle-id'].isin(veh_used)]['vehicle-id'])
-
 
 '''
 df = pd.DataFrame(columns = ['vehicle-Id', 'activity', 'job-Id', 'arrTime', 'endTime'])

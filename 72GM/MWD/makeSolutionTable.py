@@ -42,6 +42,7 @@ def getUnassignedJobs(filename):
 	tree = ET.parse(filename)
 	root = tree.getroot()
 
+
 	solutions = root.find('{http://www.w3schools.com}solutions')
 	solution = solutions.findall('{http://www.w3schools.com}solution')[1]
 	try:
@@ -96,22 +97,21 @@ if __name__ == "__main__":
 	# 	except NameError:
 	# 		df = getSolution(filename)
 
-    filename = 'GBY_solution.xml'
+    filename = 'MWD_neighbourhood_solution.xml'
     df = getSolution(filename)
-    #df.to_csv('GBY_solution.csv', index=False)
+    df.to_csv('GBY_solution.csv', index=False)
 
     #unassigned vehicle
     veh_used = df['vehicle-Id'].unique()
-    #print(veh_used)
+    print("veh_used = ", len(veh_used))
     df_veh = pd.read_csv('../Data/72GM_vehicles.csv')
 
     #get raw-id
     df_veh['raw_v-id'] = df_veh['vehicle-id'].apply(lambda x: x.split("-")[0])
 
-    df_veh = df_veh[df_veh['raw_v-id'] == "GBY"]
+    df_veh = df_veh[(df_veh['raw_v-id'] == "MWD") & (df_veh['skills'] == 'neighbourhood')]
 
     print(df_veh[~df_veh['vehicle-id'].isin(veh_used)]['vehicle-id'])
-
 
 '''
 df = pd.DataFrame(columns = ['vehicle-Id', 'activity', 'job-Id', 'arrTime', 'endTime'])

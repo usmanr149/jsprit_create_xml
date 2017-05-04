@@ -7,25 +7,26 @@ import numpy as np
 
 df_ = pd.read_csv('/home/analytics/PycharmProjects/jsprit_create_xml/72GM/Data/Equipment_Inventory - Sheet3.csv')
 
-def create_xml_for_vehicle(start, end):
+def create_xml_for_vehicle(start, end, required_skil):
     
     df_vehicle_72GM = pd.read_csv('/home/analytics/PycharmProjects/jsprit_create_xml/72GM/Data/72GM_vehicles.csv')
 
     df_vehicle_72GM.drop_duplicates(inplace=True)
     df_vehicle_72GM['yard'] = df_vehicle_72GM['vehicle-id'].apply(lambda x: x.split("-")[0])
     #select the yard
-    new_df_vehicle_72GM = df_vehicle_72GM[df_vehicle_72GM['yard'] == 'GBY']
+    new_df_vehicle_72GM = df_vehicle_72GM[df_vehicle_72GM['yard'] == 'MWD']
     #select the time wimdow
     new_df_vehicle_72GM = new_df_vehicle_72GM[(new_df_vehicle_72GM['start-time'] > start) & (new_df_vehicle_72GM['end-time'] < end)]
     print("Number of neighbourhood vehicle: {0}".format(len(new_df_vehicle_72GM[new_df_vehicle_72GM['skills'] == 'neighbourhood'])))
     print("Number of roadway vehicle: {0}".format(len(new_df_vehicle_72GM[new_df_vehicle_72GM['skills'] == 'roadway'])))
-    new_df_vehicle_72GM.to_csv('72GM_test.csv')
+    #new_df_vehicle_72GM.to_csv('72GM_test.csv')
+
     #
     #print(len(new_df_vehicle_72GM))
     #input("Press Enter ...")
 
     xml = ['<vehicles>']
-    xml.append(new_df_vehicle_72GM.to_xml_vehicle())
+    xml.append(new_df_vehicle_72GM.to_xml_vehicle(skill=required_skil))
     xml.append('</vehicles>')
 
     xml.append('<vehicleTypes>')
@@ -43,8 +44,8 @@ def create_xml_for_vehicle(start, end):
     return '\n'.join(xml)
 
 
-def create_xml_for_turf():
-    df = pd.read_csv('/home/analytics/PycharmProjects/jsprit_create_xml/72GM/GBY/services_yard_Gold Bar Yard')
+def create_xml_for_turf(required_skill):
+    df = pd.read_csv('/home/analytics/PycharmProjects/jsprit_create_xml/72GM/MWD/services_yard_MILLWOODS')
     df = df.rename(columns={'pk_site_id': 'raw-Id'})
     df['raw-Id'] = df['raw-Id'].apply(lambda x: int(x))
 
@@ -61,7 +62,7 @@ def create_xml_for_turf():
     df_72GM['end-time'] = df_72GM['end-time'].apply(lambda x: fix_time(x))
 
     xml = ['<services>']
-    xml.append(df_72GM.to_xml_turfs())
+    xml.append(df_72GM.to_xml_turfs(required_skill=required_skill))
     xml.append('</services>')
 
     return '\n'.join(xml)
@@ -74,11 +75,13 @@ def fix_time(x):
     time = x[1]
     return float(x[0])*24 + time_to_hour(time)
 
-def to_xml_vehicle(df, filename=None, mode='w'):
+def to_xml_vehicle(df, filename=None, mode='w', skill='neighbourhood'):
     veh_depot = {}
 
     for index, row in df_.iterrows():
         veh_depot[row['vehicle_id']] = row['depot_name']
+
+    df = df[df['skills'] == skill]
 
     def row_to_xml(row):
         xml = ["<vehicle>"]
@@ -131,18 +134,25 @@ def getUnassignedJobs(filename):
     print(len(uJobs))
     return uJobs
 
-def to_xml_turfs(df, filename=None, mode='w', start=0):
-    print("Input: ", len(df))
+def to_xml_turfs(df, filename=None, mode='w', required_skill='neighbourhood'):
 
     print(df[df['required-skills'] =='neighbourhood']['service-duration'].sum()*24)
     print(df[df['required-skills'] =='roadway']['service-duration'].sum()*24)
+
+    df = df[df['required-skills'] == required_skill]
+
+    print("Input: ", len(df))
+
     def row_to_xml(row):
         xml = ["<service id='{0}' type='delivery'>".format(row['Id'])]
         xml.append('<locationId>{0}</locationId>'.format(str(row['raw-Id'])))
         xml.append('<coord x="{0}" y="{1}"/>'.format(row['longitude'], row['latitude']))
         xml.append('<capacity-demand>1</capacity-demand>')
         #xml.append('<priority>1</priority>'.format(row['priority']))
-        xml.append('<duration>{0}</duration>'.format(row['service-duration']*24))
+        if row['required-skills'] == 'roadway':
+            xml.append('<duration>{0}</duration>'.format(row['service-duration']*24*0.9))
+        else:
+            xml.append('<duration>{0}</duration>'.format(row['service-duration'] * 24))
         xml.append('<timeWindows>')
         xml.append('<timeWindow>')
         xml.append('<start>{0}</start>'.format(row['start-time']))
@@ -164,16 +174,16 @@ def to_xml_turfs(df, filename=None, mode='w', start=0):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 4:
         exit()
     pd.DataFrame.to_xml_turfs = to_xml_turfs
     pd.DataFrame.to_xml_vehicle = to_xml_vehicle
     xml = ['<?xml version="1.0" encoding="UTF-8"?>']
     xml.append('<problem      xmlns = "http://www.w3schools.com"   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "http://www.w3schools.com vrp_xml_schema.xsd" >')
     xml.append('<problemType>\n<fleetSize>FINITE</fleetSize>\n<fleetComposition>HOMOGENEOUS</fleetComposition>\n</problemType>')
-    xml.append(create_xml_for_vehicle(int(sys.argv[1]), int(sys.argv[2])))
-    xml.append(create_xml_for_turf())
+    xml.append(create_xml_for_vehicle(int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]))
+    xml.append(create_xml_for_turf(sys.argv[3]))
     xml.append('</problem>')
     #print("\n".join(xml))
-    with open('/home/analytics/PycharmProjects/jsprit_create_xml/72GM/GBY/problem_setup.xml', 'w') as f:
+    with open('/home/analytics/PycharmProjects/jsprit_create_xml/72GM/MWD/problem_setup.xml', 'w') as f:
         f.write("\n".join(xml))

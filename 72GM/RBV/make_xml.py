@@ -14,7 +14,7 @@ def create_xml_for_vehicle(start, end):
     df_vehicle_72GM.drop_duplicates(inplace=True)
     df_vehicle_72GM['yard'] = df_vehicle_72GM['vehicle-id'].apply(lambda x: x.split("-")[0])
     #select the yard
-    new_df_vehicle_72GM = df_vehicle_72GM[df_vehicle_72GM['yard'] == 'GBY']
+    new_df_vehicle_72GM = df_vehicle_72GM[df_vehicle_72GM['yard'] == 'RBV']
     #select the time wimdow
     new_df_vehicle_72GM = new_df_vehicle_72GM[(new_df_vehicle_72GM['start-time'] > start) & (new_df_vehicle_72GM['end-time'] < end)]
     print("Number of neighbourhood vehicle: {0}".format(len(new_df_vehicle_72GM[new_df_vehicle_72GM['skills'] == 'neighbourhood'])))
@@ -44,7 +44,7 @@ def create_xml_for_vehicle(start, end):
 
 
 def create_xml_for_turf():
-    df = pd.read_csv('/home/analytics/PycharmProjects/jsprit_create_xml/72GM/GBY/services_yard_Gold Bar Yard')
+    df = pd.read_csv('/home/analytics/PycharmProjects/jsprit_create_xml/72GM/RBV/services_yard_Rainbow Valley Yard')
     df = df.rename(columns={'pk_site_id': 'raw-Id'})
     df['raw-Id'] = df['raw-Id'].apply(lambda x: int(x))
 
@@ -142,11 +142,23 @@ def to_xml_turfs(df, filename=None, mode='w', start=0):
         xml.append('<coord x="{0}" y="{1}"/>'.format(row['longitude'], row['latitude']))
         xml.append('<capacity-demand>1</capacity-demand>')
         #xml.append('<priority>1</priority>'.format(row['priority']))
-        xml.append('<duration>{0}</duration>'.format(row['service-duration']*24))
+        xml.append('<duration>{0}</duration>'.format(row['service-duration']*24*0.85))
         xml.append('<timeWindows>')
         xml.append('<timeWindow>')
-        xml.append('<start>{0}</start>'.format(row['start-time']))
-        xml.append('<end>{0}</end>'.format(row['end-time']))
+        if row['Level'] == 'B1':
+            if row['Id'].split("_")[1] == "0" or row['Id'].split("_")[2] == "0":
+                start_at = fix_time("0d 06:00:00")
+                end_at = fix_time("9d 14:45:00")
+                xml.append('<start>{0}</start>'.format(start_at))
+                xml.append('<end>{0}</end>'.format(end_at))
+            else:
+                start_at = fix_time("10d 06:00:00")
+                end_at = fix_time("20d 14:45:00")
+                xml.append('<start>{0}</start>'.format(start_at))
+                xml.append('<end>{0}</end>'.format(end_at))
+        else:
+            xml.append('<start>{0}</start>'.format(row['start-time']))
+            xml.append('<end>{0}</end>'.format(row['end-time']))
         xml.append('</timeWindow>')
         xml.append('</timeWindows>')
         xml.append('<requiredSkills>{0}</requiredSkills>'.format(row['required-skills']))
@@ -175,5 +187,5 @@ if __name__ == '__main__':
     xml.append(create_xml_for_turf())
     xml.append('</problem>')
     #print("\n".join(xml))
-    with open('/home/analytics/PycharmProjects/jsprit_create_xml/72GM/GBY/problem_setup.xml', 'w') as f:
+    with open('/home/analytics/PycharmProjects/jsprit_create_xml/72GM/RBV/problem_setup.xml', 'w') as f:
         f.write("\n".join(xml))

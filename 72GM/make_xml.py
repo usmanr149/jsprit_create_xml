@@ -5,11 +5,9 @@ import random
 
 import numpy as np
 
-df_ = pd.read_csv('/home/usman/Downloads/Turf_Clusters/ver1.3/72GM/Equipment_Inventory - Sheet3.csv')
-
 def create_xml_for_vehicle(start, end):
     
-    df_vehicle_72GM = pd.read_csv('/home/usman/Downloads/Turf_Clusters/ver1.3/72GM/72GM_vehicles.csv')
+    df_vehicle_72GM = pd.read_csv('/home/analytics/PycharmProjects/jsprit_create_xml/72GM/Data/72GM_vehicles.csv')
 
     df_vehicle_72GM.drop_duplicates(inplace=True)
     df_vehicle_72GM['yard'] = df_vehicle_72GM['vehicle-id'].apply(lambda x: x.split("-")[0])
@@ -141,7 +139,7 @@ def to_xml_turfs(df, filename=None, mode='w', start=0):
         xml.append('<locationId>{0}</locationId>'.format(str(row['raw-Id'])))
         xml.append('<coord x="{0}" y="{1}"/>'.format(row['longitude'], row['latitude']))
         xml.append('<capacity-demand>1</capacity-demand>')
-        xml.append('<priority>1</priority>'.format(row['priority']))
+        #xml.append('<priority>1</priority>'.format(row['priority']))
         xml.append('<duration>{0}</duration>'.format(row['service-duration']*24))
         xml.append('<timeWindows>')
         xml.append('<timeWindow>')
