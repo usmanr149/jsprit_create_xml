@@ -101,7 +101,7 @@ if __name__ == "__main__":
 
     print (getUnassigned(filename))
 
-    df.to_csv('../72GM_solution.csv', index=False)
+    df.to_csv('DON_solution.csv', index=False)
 
     #unassigned vehicle
     veh_used = df['vehicle-Id'].unique()

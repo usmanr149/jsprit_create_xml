@@ -98,7 +98,7 @@ if __name__ == "__main__":
 
     filename = 'GBY_solution.xml'
     df = getSolution(filename)
-    #df.to_csv('GBY_solution.csv', index=False)
+    df.to_csv('GBY_solution.csv', index=False)
 
     #unassigned vehicle
     veh_used = df['vehicle-Id'].unique()

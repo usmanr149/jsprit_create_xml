@@ -92,8 +92,10 @@ if __name__ == "__main__":
     filename = 'ASY_solution.xml'
 
     df = getSolution(filename)
+	#write the solution table to disk
+	# df.to_csv('GBY_solution.csv', index=False)
+
     print(getUnassigned(filename))
-    #df.to_csv('GBY_solution.csv', index=False)
 
     #unassigned vehicle
     veh_used = df['vehicle-Id'].unique()
