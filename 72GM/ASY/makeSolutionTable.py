@@ -93,7 +93,7 @@ if __name__ == "__main__":
 
     df = getSolution(filename)
     print(getUnassigned(filename))
-    #df.to_csv('GBY_solution.csv', index=False)
+    df.to_csv('ASY_solution.csv', index=False)
 
     #unassigned vehicle
     veh_used = df['vehicle-Id'].unique()

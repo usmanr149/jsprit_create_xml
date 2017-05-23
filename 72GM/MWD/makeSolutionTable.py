@@ -99,7 +99,7 @@ if __name__ == "__main__":
 
     filename = 'MWD_neighbourhood_solution.xml'
     df = getSolution(filename)
-    df.to_csv('GBY_solution.csv', index=False)
+    df.to_csv('MWD_solution.csv', index=False)
 
     #unassigned vehicle
     veh_used = df['vehicle-Id'].unique()

@@ -96,19 +96,19 @@ if __name__ == "__main__":
 	# 	except NameError:
 	# 		df = getSolution(filename)
 
-    filename = '/home/usman/jsprit/jsprit-examples/output/usman_data_.xml'
+    filename = 'OKY_solution.xml'
     df = getSolution(filename)
-    df.to_csv('72GM_solution.csv', index=False)
+    df.to_csv('OKY_solution.csv', index=False)
 
     #unassigned vehicle
     veh_used = df['vehicle-Id'].unique()
     print(veh_used)
-    df_veh = pd.read_csv('72GM_vehicles.csv')
+    df_veh = pd.read_csv('../Data/72GM_vehicles.csv')
 
     #get raw-id
     df_veh['raw_v-id'] = df_veh['vehicle-id'].apply(lambda x: x.split("-")[0])
 
-    df_veh = df_veh[df_veh['raw_v-id'] == "MWD"]
+    df_veh = df_veh[df_veh['raw_v-id'] == "OKY"]
 
     print(df_veh[~df_veh['vehicle-id'].isin(veh_used)]['vehicle-id'])
 
