@@ -27,4 +27,11 @@ df_turfs_unassigned = df_turfs[~df_turfs["Id"].isin(df['job-Id'])]
 df_turfs_unassigned.to_csv("Unassigned_turfs.csv")
 
 #get all unassigned vehicles
+veh_used = df['vehicle-Id'].unique()
 
+df_veh = pd.read_csv("../72GM/Data/72GM_vehicles.csv")
+df_veh = df_veh.append(pd.read_csv("../580D/Data/580D_vehicles.csv"))
+
+df_veh_unused = df_veh[~df_veh['vehicle-id'].isin(veh_used)]
+
+df_veh_unused.to_csv("Unused_vehicles.csv")
