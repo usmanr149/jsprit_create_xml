@@ -137,26 +137,34 @@ def to_xml_turfs(df, filename=None, mode='w', start=0):
 
     print(df[df['required-skills'] =='neighbourhood']['service-duration'].sum()*24)
     print(df[df['required-skills'] =='roadway']['service-duration'].sum()*24)
-    def row_to_xml(row):
+
+    def row_to_xml(row, how_many):
         xml = ["<service id='{0}' type='delivery'>".format(row['Id'])]
         xml.append('<locationId>{0}</locationId>'.format(str(row['raw-Id'])))
         xml.append('<coord x="{0}" y="{1}"/>'.format(row['longitude'], row['latitude']))
         xml.append('<capacity-demand>1</capacity-demand>')
         #xml.append('<priority>1</priority>'.format(row['priority']))
-        xml.append('<duration>{0}</duration>'.format(row['service-duration']*24*0.85))
+        xml.append('<duration>{0}</duration>'.format(row['service-duration']*24*0.83))
         xml.append('<timeWindows>')
         xml.append('<timeWindow>')
         if row['Level'] == 'A1' or row['Level'] == 'A2':
             if len(row['Id'].split("_")) == 3:
-                start_at = fix_time(str(int(float(row['Id'].split("_")[1]))*7 +0) +"d 06:00:00")
-                end_at = fix_time(str(int(float(row['Id'].split("_")[1]))*7 +6) +"d 14:45:00")
+                start_at = fix_time(str(int(float(row['Id'].split("_")[1]))*7 + 5) +"d 06:00:00")
+                end_at = fix_time(str(int(float(row['Id'].split("_")[1]))*7 + 6) +"d 14:45:00")
                 xml.append('<start>{0}</start>'.format(start_at))
                 xml.append('<end>{0}</end>'.format(end_at))
             if len(row['Id'].split("_")) == 4:
-                start_at = fix_time(str(int(float(row['Id'].split("_")[2]))*7 +0) +"d 06:00:00")
-                end_at = fix_time(str(int(float(row['Id'].split("_")[2]))*7 +6) +"d 14:45:00")
-                xml.append('<start>{0}</start>'.format(start_at))
-                xml.append('<end>{0}</end>'.format(end_at))
+                if how_many < 15:
+                    start_at = fix_time(str(int(float(row['Id'].split("_")[2]))*7 + 0) +"d 06:00:00")
+                    end_at = fix_time(str(int(float(row['Id'].split("_")[2]))*7 + 0) +"d 14:45:00")
+                    xml.append('<start>{0}</start>'.format(start_at))
+                    xml.append('<end>{0}</end>'.format(end_at))
+                else:
+                    start_at = fix_time(str(int(float(row['Id'].split("_")[2]))*7 + 4) +"d 06:00:00")
+                    end_at = fix_time(str(int(float(row['Id'].split("_")[2]))*7 + 4) +"d 14:45:00")
+                    xml.append('<start>{0}</start>'.format(start_at))
+                    xml.append('<end>{0}</end>'.format(end_at))
+                how_many+=1
         else:
             xml.append('<start>{0}</start>'.format(row['start-time']))
             xml.append('<end>{0}</end>'.format(row['end-time']))
@@ -165,10 +173,16 @@ def to_xml_turfs(df, filename=None, mode='w', start=0):
         xml.append('<requiredSkills>{0}</requiredSkills>'.format(row['required-skills']))
         xml.append('</service>')
 
-        return '\n'.join(xml)
+        return '\n'.join(xml), how_many
 
-    res = '\n'.join(df.apply(row_to_xml, axis=1))
+    how_many = 0
+    res = ""
+    for index,row in df.iterrows():
+        #print("how many = ", how_many)
+        xml_, how_many = row_to_xml(row, how_many)
+        res += xml_
 
+    #res = '\n'.join(df.apply(row_to_xml, axis=1))
 
     if filename is None:
         return res

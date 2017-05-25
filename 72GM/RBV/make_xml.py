@@ -142,7 +142,7 @@ def to_xml_turfs(df, filename=None, mode='w', start=0):
         xml.append('<coord x="{0}" y="{1}"/>'.format(row['longitude'], row['latitude']))
         xml.append('<capacity-demand>1</capacity-demand>')
         #xml.append('<priority>1</priority>'.format(row['priority']))
-        xml.append('<duration>{0}</duration>'.format(row['service-duration']*24*0.85))
+        xml.append('<duration>{0}</duration>'.format(row['service-duration']*24*0.8))
         xml.append('<timeWindows>')
         xml.append('<timeWindow>')
         if row['Level'] == 'B1':
@@ -154,6 +154,17 @@ def to_xml_turfs(df, filename=None, mode='w', start=0):
             else:
                 start_at = fix_time("10d 06:00:00")
                 end_at = fix_time("20d 14:45:00")
+                xml.append('<start>{0}</start>'.format(start_at))
+                xml.append('<end>{0}</end>'.format(end_at))
+        elif row['Level'] == 'A1' or row['Level'] == 'A2':
+            if len(row['Id'].split("_")) == 3:
+                start_at = fix_time(str(int(float(row['Id'].split("_")[1])) * 6 + 4) + "d 06:00:00")
+                end_at = fix_time(str(int(float(row['Id'].split("_")[1])) * 6 + 6) + "d 14:45:00")
+                xml.append('<start>{0}</start>'.format(start_at))
+                xml.append('<end>{0}</end>'.format(end_at))
+            if len(row['Id'].split("_")) == 4:
+                start_at = fix_time(str(int(float(row['Id'].split("_")[2])) * 7 + 6) + "d 06:00:00")
+                end_at = fix_time(str(int(float(row['Id'].split("_")[2])) * 7 + 6) + "d 14:45:00")
                 xml.append('<start>{0}</start>'.format(start_at))
                 xml.append('<end>{0}</end>'.format(end_at))
         else:

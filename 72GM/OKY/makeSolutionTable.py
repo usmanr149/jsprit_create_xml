@@ -61,7 +61,7 @@ def getUnassignedJobs(filename):
 
 def getUnassigned(filename):
 
-	df = pd.read_csv('ODL_Inputs_72GM.csv')
+	df = pd.read_csv('../Data/ODL_Inputs_72GM.csv')
 
 	unassignedJobs = getUnassignedJobs(filename)
 	df_solution = getSolution(filename)
@@ -89,12 +89,6 @@ def getUnassigned(filename):
 	return df_updates
 
 if __name__ == "__main__":
-	# for i in range(2):
-	# 	filename = '/home/usman/jsprit/jsprit-examples/output/usman_data_' + str(i) + '.xml'
-	# 	try:
-	# 		df = df.append(getSolution(filename))
-	# 	except NameError:
-	# 		df = getSolution(filename)
 
     filename = 'OKY_solution.xml'
     df = getSolution(filename)
@@ -102,7 +96,7 @@ if __name__ == "__main__":
 
     #unassigned vehicle
     veh_used = df['vehicle-Id'].unique()
-    print(veh_used)
+    print(getUnassigned(filename))
     df_veh = pd.read_csv('../Data/72GM_vehicles.csv')
 
     #get raw-id

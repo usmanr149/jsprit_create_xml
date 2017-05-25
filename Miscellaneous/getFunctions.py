@@ -25,19 +25,19 @@ def getTravelTime(df):
     return travelTime
 
 def getHectaresCut(df):
-    df_turfs = pd.read_csv('../72GM/Data/ODL_Inputs_72GM.csv')
+    df_turfs = pd.read_csv('../580D/Data/ODL_Inputs_580D.csv')
 
     df = df.dropna()
     df = df.rename(columns={'job-Id': 'Id'})
-    df = df.merge(df_turfs[['Id', 'Service-duration-1']], on='Id', how='left')
+    df = df.merge(df_turfs[['Id', 'service-duration']], on='Id', how='left')
 
-    df['service_area'] = df['Service-duration-1'].apply(lambda x: float(x)*0.3*24)
+    df['service_area'] = df['service-duration'].apply(lambda x: float(x)*2)
 
     return df['service_area'].sum()
 
 if __name__ == '__main__':
 
-    filename = '../72GM/OKY/OKY_solution.csv'
+    filename = '../580D/OKY/OKY_solution.csv'
 
     df = pd.read_csv(filename)
     serviceTime = getServiceTime(df)

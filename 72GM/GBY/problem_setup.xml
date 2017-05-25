@@ -794,7 +794,7 @@
 <start>486</start>
 <end>494.75</end>
 </timeSchedule>
-<skills>neighbourhood</skills>
+<skills>roadway</skills>
 <returnToDepot>true</returnToDepot>
 </vehicle>
 <vehicle>
@@ -938,7 +938,7 @@
 <start>486</start>
 <end>494.75</end>
 </timeSchedule>
-<skills>neighbourhood</skills>
+<skills>roadway</skills>
 <returnToDepot>true</returnToDepot>
 </vehicle>
 <vehicle>
@@ -1010,7 +1010,7 @@
 <start>486</start>
 <end>494.75</end>
 </timeSchedule>
-<skills>neighbourhood</skills>
+<skills>roadway</skills>
 <returnToDepot>true</returnToDepot>
 </vehicle>
 <vehicle>
@@ -1102,7 +1102,7 @@
 <locationId>1017</locationId>
 <coord x="-113.4310656" y="53.53593095"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.79947368256</duration>
+<duration>0.805184208864</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1115,7 +1115,7 @@
 <locationId>1017</locationId>
 <coord x="-113.4310656" y="53.53593095"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.79947368256</duration>
+<duration>0.805184208864</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1128,7 +1128,7 @@
 <locationId>1075</locationId>
 <coord x="-113.4265287" y="53.53849365"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.25263158048</duration>
+<duration>1.26157894891</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1141,7 +1141,7 @@
 <locationId>1075</locationId>
 <coord x="-113.4265287" y="53.53849365"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.25263158048</duration>
+<duration>1.26157894891</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1154,7 +1154,7 @@
 <locationId>1193</locationId>
 <coord x="-113.4525547" y="53.49922599"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.35263158048</duration>
+<duration>3.37657894891</duration>
 <timeWindows>
 <timeWindow>
 <start>126.0</start>
@@ -1167,7 +1167,7 @@
 <locationId>1193</locationId>
 <coord x="-113.4525547" y="53.49922599"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.35263158048</duration>
+<duration>3.37657894891</duration>
 <timeWindows>
 <timeWindow>
 <start>294.0</start>
@@ -1180,7 +1180,7 @@
 <locationId>1193</locationId>
 <coord x="-113.4525547" y="53.49922599"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.35263158048</duration>
+<duration>3.37657894891</duration>
 <timeWindows>
 <timeWindow>
 <start>462.0</start>
@@ -1193,7 +1193,7 @@
 <locationId>1193</locationId>
 <coord x="-113.4525547" y="53.49922599"/>
 <capacity-demand>1</capacity-demand>
-<duration>6.3147368424</duration>
+<duration>6.35984210556</duration>
 <timeWindows>
 <timeWindow>
 <start>126.0</start>
@@ -1206,7 +1206,7 @@
 <locationId>1193</locationId>
 <coord x="-113.4525547" y="53.49922599"/>
 <capacity-demand>1</capacity-demand>
-<duration>6.3147368424</duration>
+<duration>6.35984210556</duration>
 <timeWindows>
 <timeWindow>
 <start>294.0</start>
@@ -1219,7 +1219,7 @@
 <locationId>1193</locationId>
 <coord x="-113.4525547" y="53.49922599"/>
 <capacity-demand>1</capacity-demand>
-<duration>6.3147368424</duration>
+<duration>6.35984210556</duration>
 <timeWindows>
 <timeWindow>
 <start>462.0</start>
@@ -1232,7 +1232,7 @@
 <locationId>1316</locationId>
 <coord x="-113.4217322" y="53.53171493"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.98368421088</duration>
+<duration>0.990710526672</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1245,7 +1245,7 @@
 <locationId>1316</locationId>
 <coord x="-113.4217322" y="53.53171493"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.98368421088</duration>
+<duration>0.990710526672</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1258,7 +1258,7 @@
 <locationId>132</locationId>
 <coord x="-113.4242616" y="53.51875284"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.9105263152</duration>
+<duration>2.93131578888</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1271,7 +1271,7 @@
 <locationId>132</locationId>
 <coord x="-113.4242616" y="53.51875284"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.9105263152</duration>
+<duration>2.93131578888</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1284,7 +1284,7 @@
 <locationId>1477</locationId>
 <coord x="-113.4198854" y="53.52333467"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.05157894672</duration>
+<duration>0.051947367768</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1297,7 +1297,7 @@
 <locationId>1477</locationId>
 <coord x="-113.4198854" y="53.52333467"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.05157894672</duration>
+<duration>0.051947367768</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1310,7 +1310,7 @@
 <locationId>1658</locationId>
 <coord x="-113.4297217" y="53.55564341"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.40000000112</duration>
+<duration>1.41000000113</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1323,7 +1323,7 @@
 <locationId>1658</locationId>
 <coord x="-113.4297217" y="53.55564341"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.40000000112</duration>
+<duration>1.41000000113</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1336,7 +1336,7 @@
 <locationId>181</locationId>
 <coord x="-113.4252652" y="53.5572473"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.92105263152</duration>
+<duration>0.927631578888</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1349,7 +1349,7 @@
 <locationId>181</locationId>
 <coord x="-113.4252652" y="53.5572473"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.92105263152</duration>
+<duration>0.927631578888</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1362,7 +1362,7 @@
 <locationId>182</locationId>
 <coord x="-113.4269073" y="53.55581701"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.21368420976</duration>
+<duration>0.215210525544</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1375,7 +1375,7 @@
 <locationId>182</locationId>
 <coord x="-113.4269073" y="53.55581701"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.21368420976</duration>
+<duration>0.215210525544</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1388,7 +1388,7 @@
 <locationId>1860</locationId>
 <coord x="-113.4401653" y="53.5525782"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.42368420976</duration>
+<duration>0.426710525544</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1401,7 +1401,7 @@
 <locationId>1860</locationId>
 <coord x="-113.4401653" y="53.5525782"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.42368420976</duration>
+<duration>0.426710525544</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1414,7 +1414,7 @@
 <locationId>1892</locationId>
 <coord x="-113.357345335" y="53.483201924"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.36157894672</duration>
+<duration>2.37844736777</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1427,7 +1427,7 @@
 <locationId>1892</locationId>
 <coord x="-113.357345335" y="53.483201924"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.36157894672</duration>
+<duration>2.37844736777</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1440,7 +1440,7 @@
 <locationId>1894</locationId>
 <coord x="-113.4455455" y="53.53897702"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.00999999888</duration>
+<duration>3.03149999887</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1453,7 +1453,7 @@
 <locationId>1894</locationId>
 <coord x="-113.4455455" y="53.53897702"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.00999999888</duration>
+<duration>3.03149999887</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1466,7 +1466,7 @@
 <locationId>1906</locationId>
 <coord x="-113.4185601" y="53.54687053"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.32684210544</duration>
+<duration>3.35060526334</duration>
 <timeWindows>
 <timeWindow>
 <start>126.0</start>
@@ -1479,7 +1479,7 @@
 <locationId>1906</locationId>
 <coord x="-113.4185601" y="53.54687053"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.32684210544</duration>
+<duration>3.35060526334</duration>
 <timeWindows>
 <timeWindow>
 <start>294.0</start>
@@ -1492,7 +1492,7 @@
 <locationId>1906</locationId>
 <coord x="-113.4185601" y="53.54687053"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.32684210544</duration>
+<duration>3.35060526334</duration>
 <timeWindows>
 <timeWindow>
 <start>462.0</start>
@@ -1505,7 +1505,7 @@
 <locationId>1966</locationId>
 <coord x="-113.4346366" y="53.5473042"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.35578947392</duration>
+<duration>1.36547368445</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1518,7 +1518,7 @@
 <locationId>1966</locationId>
 <coord x="-113.4346366" y="53.5473042"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.35578947392</duration>
+<duration>1.36547368445</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1531,7 +1531,7 @@
 <locationId>1970</locationId>
 <coord x="-113.419752" y="53.54941313"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.136315788</duration>
+<duration>0.1372894722</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1544,7 +1544,7 @@
 <locationId>1970</locationId>
 <coord x="-113.419752" y="53.54941313"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.136315788</duration>
+<duration>0.1372894722</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1557,7 +1557,7 @@
 <locationId>2014</locationId>
 <coord x="-113.4122403" y="53.56051041"/>
 <capacity-demand>1</capacity-demand>
-<duration>6.83789473584</duration>
+<duration>6.8867368411</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1570,7 +1570,7 @@
 <locationId>2014</locationId>
 <coord x="-113.4122403" y="53.56051041"/>
 <capacity-demand>1</capacity-demand>
-<duration>6.83789473584</duration>
+<duration>6.8867368411</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1583,7 +1583,7 @@
 <locationId>2016</locationId>
 <coord x="-113.4057399" y="53.54874589"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.51578947392</duration>
+<duration>0.519473684448</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1596,7 +1596,7 @@
 <locationId>2016</locationId>
 <coord x="-113.4057399" y="53.54874589"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.51578947392</duration>
+<duration>0.519473684448</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1609,7 +1609,7 @@
 <locationId>2162</locationId>
 <coord x="-113.354540229" y="53.482924038"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.2157894728</duration>
+<duration>1.22447368332</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1622,7 +1622,7 @@
 <locationId>2162</locationId>
 <coord x="-113.354540229" y="53.482924038"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.2157894728</duration>
+<duration>1.22447368332</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1635,7 +1635,7 @@
 <locationId>2164</locationId>
 <coord x="-113.4254276" y="53.55869211"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.14210526416</duration>
+<duration>1.1502631589</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1648,7 +1648,7 @@
 <locationId>2164</locationId>
 <coord x="-113.4254276" y="53.55869211"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.14210526416</duration>
+<duration>1.1502631589</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1661,7 +1661,7 @@
 <locationId>2165</locationId>
 <coord x="-113.4035534" y="53.51663277"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.61157894784</duration>
+<duration>0.615947368896</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1674,7 +1674,7 @@
 <locationId>2165</locationId>
 <coord x="-113.4035534" y="53.51663277"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.61157894784</duration>
+<duration>0.615947368896</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1687,7 +1687,7 @@
 <locationId>2276</locationId>
 <coord x="-113.361646382" y="53.482314823"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.1794736848</duration>
+<duration>3.20218421112</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1700,7 +1700,7 @@
 <locationId>2276</locationId>
 <coord x="-113.361646382" y="53.482314823"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.1794736848</duration>
+<duration>3.20218421112</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1713,7 +1713,7 @@
 <locationId>2379</locationId>
 <coord x="-113.4166271" y="53.55466243"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.86263157824</duration>
+<duration>2.88307894666</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1726,7 +1726,7 @@
 <locationId>2379</locationId>
 <coord x="-113.4166271" y="53.55466243"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.86263157824</duration>
+<duration>2.88307894666</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1739,7 +1739,7 @@
 <locationId>2380</locationId>
 <coord x="-113.4142713" y="53.55622078"/>
 <capacity-demand>1</capacity-demand>
-<duration>4.56842105328</duration>
+<duration>4.60105263223</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1752,7 +1752,7 @@
 <locationId>2380</locationId>
 <coord x="-113.4142713" y="53.55622078"/>
 <capacity-demand>1</capacity-demand>
-<duration>4.56842105328</duration>
+<duration>4.60105263223</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1765,7 +1765,7 @@
 <locationId>2385</locationId>
 <coord x="-113.4388203" y="53.54486321"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.21736841952</duration>
+<duration>0.218921051088</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1778,7 +1778,7 @@
 <locationId>2385</locationId>
 <coord x="-113.4388203" y="53.54486321"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.21736841952</duration>
+<duration>0.218921051088</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1791,7 +1791,7 @@
 <locationId>2386</locationId>
 <coord x="-113.4436549" y="53.5388941"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.36842105328</duration>
+<duration>0.371052632232</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1804,7 +1804,7 @@
 <locationId>2386</locationId>
 <coord x="-113.4436549" y="53.5388941"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.36842105328</duration>
+<duration>0.371052632232</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1817,7 +1817,7 @@
 <locationId>2391</locationId>
 <coord x="-113.479064" y="53.53403064"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.03947368368</duration>
+<duration>3.06118420999</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1830,7 +1830,7 @@
 <locationId>2391</locationId>
 <coord x="-113.479064" y="53.53403064"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.03947368368</duration>
+<duration>3.06118420999</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1843,7 +1843,7 @@
 <locationId>2465</locationId>
 <coord x="-113.445158" y="53.55109592"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.36473684352</duration>
+<duration>0.367342106688</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1856,7 +1856,7 @@
 <locationId>2465</locationId>
 <coord x="-113.445158" y="53.55109592"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.36473684352</duration>
+<duration>0.367342106688</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1869,7 +1869,7 @@
 <locationId>2466</locationId>
 <coord x="-113.446547" y="53.550572"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.25052631744</duration>
+<duration>0.252315791136</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1882,7 +1882,7 @@
 <locationId>2466</locationId>
 <coord x="-113.446547" y="53.550572"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.25052631744</duration>
+<duration>0.252315791136</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1895,7 +1895,7 @@
 <locationId>2527</locationId>
 <coord x="-113.4191255" y="53.55024676"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.62842105328</duration>
+<duration>1.64005263223</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1908,7 +1908,7 @@
 <locationId>2527</locationId>
 <coord x="-113.4191255" y="53.55024676"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.62842105328</duration>
+<duration>1.64005263223</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1921,7 +1921,7 @@
 <locationId>2546</locationId>
 <coord x="-113.42164" y="53.52968843"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.53789473584</duration>
+<duration>0.541736841096</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1934,7 +1934,7 @@
 <locationId>2546</locationId>
 <coord x="-113.42164" y="53.52968843"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.53789473584</duration>
+<duration>0.541736841096</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1947,7 +1947,7 @@
 <locationId>2549</locationId>
 <coord x="-113.4198349" y="53.52883935"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.09947368368</duration>
+<duration>0.100184209992</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1960,7 +1960,7 @@
 <locationId>2549</locationId>
 <coord x="-113.4198349" y="53.52883935"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.09947368368</duration>
+<duration>0.100184209992</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1973,7 +1973,7 @@
 <locationId>2550</locationId>
 <coord x="-113.4223112" y="53.52871346"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.08105263152</duration>
+<duration>0.081631578888</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -1986,7 +1986,7 @@
 <locationId>2550</locationId>
 <coord x="-113.4223112" y="53.52871346"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.08105263152</duration>
+<duration>0.081631578888</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -1999,7 +1999,7 @@
 <locationId>2551</locationId>
 <coord x="-113.4207201" y="53.52415337"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.10315789344</duration>
+<duration>0.103894735536</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2012,7 +2012,7 @@
 <locationId>2551</locationId>
 <coord x="-113.4207201" y="53.52415337"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.10315789344</duration>
+<duration>0.103894735536</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2025,7 +2025,7 @@
 <locationId>2552</locationId>
 <coord x="-113.4215776" y="53.52490134"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.06999999888</duration>
+<duration>0.070499998872</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2038,7 +2038,7 @@
 <locationId>2552</locationId>
 <coord x="-113.4215776" y="53.52490134"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.06999999888</duration>
+<duration>0.070499998872</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2051,7 +2051,7 @@
 <locationId>2604</locationId>
 <coord x="-113.5161759" y="53.52840712"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.38315789568</duration>
+<duration>0.385894737792</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2064,7 +2064,7 @@
 <locationId>2604</locationId>
 <coord x="-113.5161759" y="53.52840712"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.38315789568</duration>
+<duration>0.385894737792</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2077,7 +2077,7 @@
 <locationId>2769</locationId>
 <coord x="-113.41853" y="53.55514767"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.52736841952</duration>
+<duration>2.54542105109</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2090,7 +2090,7 @@
 <locationId>2769</locationId>
 <coord x="-113.41853" y="53.55514767"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.52736841952</duration>
+<duration>2.54542105109</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2103,7 +2103,7 @@
 <locationId>2797</locationId>
 <coord x="-113.4191263" y="53.54562052"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.10684210656</duration>
+<duration>0.107605264464</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2116,7 +2116,7 @@
 <locationId>2797</locationId>
 <coord x="-113.4191263" y="53.54562052"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.10684210656</duration>
+<duration>0.107605264464</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2129,7 +2129,7 @@
 <locationId>2798</locationId>
 <coord x="-113.4273885" y="53.54443227"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.4052631576</duration>
+<duration>0.40815789444</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2142,7 +2142,7 @@
 <locationId>2798</locationId>
 <coord x="-113.4273885" y="53.54443227"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.4052631576</duration>
+<duration>0.40815789444</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2155,7 +2155,7 @@
 <locationId>2846</locationId>
 <coord x="-113.4213001" y="53.51414833"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.61157894784</duration>
+<duration>0.615947368896</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2168,7 +2168,7 @@
 <locationId>2846</locationId>
 <coord x="-113.4213001" y="53.51414833"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.61157894784</duration>
+<duration>0.615947368896</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2181,7 +2181,7 @@
 <locationId>2897</locationId>
 <coord x="-113.4291529" y="53.54508906"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.03684210432</duration>
+<duration>0.037105262208</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2194,7 +2194,7 @@
 <locationId>2897</locationId>
 <coord x="-113.4291529" y="53.54508906"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.03684210432</duration>
+<duration>0.037105262208</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2207,7 +2207,7 @@
 <locationId>2898</locationId>
 <coord x="-113.4305195" y="53.54669991"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.05526315648</duration>
+<duration>0.055657893312</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2220,7 +2220,7 @@
 <locationId>2898</locationId>
 <coord x="-113.4305195" y="53.54669991"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.05526315648</duration>
+<duration>0.055657893312</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2233,7 +2233,7 @@
 <locationId>2899</locationId>
 <coord x="-113.4283128" y="53.5468906"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.36842105328</duration>
+<duration>0.371052632232</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2246,7 +2246,7 @@
 <locationId>2899</locationId>
 <coord x="-113.4283128" y="53.5468906"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.36842105328</duration>
+<duration>0.371052632232</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2259,7 +2259,7 @@
 <locationId>2900</locationId>
 <coord x="-113.4338293" y="53.54251483"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.36473684352</duration>
+<duration>0.367342106688</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2272,7 +2272,7 @@
 <locationId>2900</locationId>
 <coord x="-113.4338293" y="53.54251483"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.36473684352</duration>
+<duration>0.367342106688</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2285,7 +2285,7 @@
 <locationId>2973</locationId>
 <coord x="-113.4046955" y="53.51591628"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.88631579024</duration>
+<duration>1.89978947446</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2298,7 +2298,7 @@
 <locationId>2973</locationId>
 <coord x="-113.4046955" y="53.51591628"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.88631579024</duration>
+<duration>1.89978947446</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2311,7 +2311,7 @@
 <locationId>309</locationId>
 <coord x="-113.4532601" y="53.54472687"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.06842105216</duration>
+<duration>1.0760526311</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2324,7 +2324,7 @@
 <locationId>309</locationId>
 <coord x="-113.4532601" y="53.54472687"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.06842105216</duration>
+<duration>1.0760526311</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2337,7 +2337,7 @@
 <locationId>3107</locationId>
 <coord x="-113.4167825" y="53.54291355"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.16210526304</duration>
+<duration>0.163263157776</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2350,7 +2350,7 @@
 <locationId>3107</locationId>
 <coord x="-113.4167825" y="53.54291355"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.16210526304</duration>
+<duration>0.163263157776</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2363,7 +2363,7 @@
 <locationId>3108</locationId>
 <coord x="-113.4082179" y="53.54564077"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.18421052496</duration>
+<duration>0.185526314424</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2376,7 +2376,7 @@
 <locationId>3108</locationId>
 <coord x="-113.4082179" y="53.54564077"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.18421052496</duration>
+<duration>0.185526314424</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2389,7 +2389,7 @@
 <locationId>3109</locationId>
 <coord x="-113.4091794" y="53.54680764"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.08473684128</duration>
+<duration>0.085342104432</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2402,7 +2402,7 @@
 <locationId>3109</locationId>
 <coord x="-113.4091794" y="53.54680764"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.08473684128</duration>
+<duration>0.085342104432</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2415,7 +2415,7 @@
 <locationId>3120</locationId>
 <coord x="-113.4070157" y="53.55182718"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.25789473696</duration>
+<duration>0.259736842224</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2428,7 +2428,7 @@
 <locationId>3120</locationId>
 <coord x="-113.4070157" y="53.55182718"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.25789473696</duration>
+<duration>0.259736842224</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2441,7 +2441,7 @@
 <locationId>3121</locationId>
 <coord x="-113.4081388" y="53.55432133"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.25789473696</duration>
+<duration>0.259736842224</duration>
 <timeWindows>
 <timeWindow>
 <start>126.0</start>
@@ -2454,7 +2454,7 @@
 <locationId>3121</locationId>
 <coord x="-113.4081388" y="53.55432133"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.25789473696</duration>
+<duration>0.259736842224</duration>
 <timeWindows>
 <timeWindow>
 <start>294.0</start>
@@ -2467,7 +2467,7 @@
 <locationId>3121</locationId>
 <coord x="-113.4081388" y="53.55432133"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.25789473696</duration>
+<duration>0.259736842224</duration>
 <timeWindows>
 <timeWindow>
 <start>462.0</start>
@@ -2480,7 +2480,7 @@
 <locationId>3123</locationId>
 <coord x="-113.4134813" y="53.54648448"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.22105263264</duration>
+<duration>0.222631580016</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2493,7 +2493,7 @@
 <locationId>3123</locationId>
 <coord x="-113.4134813" y="53.54648448"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.22105263264</duration>
+<duration>0.222631580016</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2506,7 +2506,7 @@
 <locationId>3134</locationId>
 <coord x="-113.415435" y="53.55237309"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.40894736736</duration>
+<duration>0.411868419984</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2519,7 +2519,7 @@
 <locationId>3134</locationId>
 <coord x="-113.415435" y="53.55237309"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.40894736736</duration>
+<duration>0.411868419984</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2532,7 +2532,7 @@
 <locationId>3182</locationId>
 <coord x="-113.424802" y="53.52930644"/>
 <capacity-demand>1</capacity-demand>
-<duration>4.05263157936</duration>
+<duration>4.08157894778</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2545,7 +2545,7 @@
 <locationId>3182</locationId>
 <coord x="-113.424802" y="53.52930644"/>
 <capacity-demand>1</capacity-demand>
-<duration>4.05263157936</duration>
+<duration>4.08157894778</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2558,7 +2558,7 @@
 <locationId>3384</locationId>
 <coord x="-113.4183816" y="53.5100764"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.89947368256</duration>
+<duration>2.92018420886</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2571,7 +2571,7 @@
 <locationId>3384</locationId>
 <coord x="-113.4183816" y="53.5100764"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.89947368256</duration>
+<duration>2.92018420886</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2584,7 +2584,7 @@
 <locationId>3449</locationId>
 <coord x="-113.423471" y="53.51232586"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.19578947392</duration>
+<duration>2.21147368445</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2597,7 +2597,7 @@
 <locationId>3449</locationId>
 <coord x="-113.423471" y="53.51232586"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.19578947392</duration>
+<duration>2.21147368445</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2610,7 +2610,7 @@
 <locationId>3611</locationId>
 <coord x="-113.4305311" y="53.53949827"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.21052631632</duration>
+<duration>2.22631579001</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2623,7 +2623,7 @@
 <locationId>3611</locationId>
 <coord x="-113.4305311" y="53.53949827"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.21052631632</duration>
+<duration>2.22631579001</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2636,7 +2636,7 @@
 <locationId>3767</locationId>
 <coord x="-113.4201912" y="53.537579"/>
 <capacity-demand>1</capacity-demand>
-<duration>6.85263157824</duration>
+<duration>6.90157894666</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2649,7 +2649,7 @@
 <locationId>3767</locationId>
 <coord x="-113.4201912" y="53.537579"/>
 <capacity-demand>1</capacity-demand>
-<duration>6.85263157824</duration>
+<duration>6.90157894666</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2662,7 +2662,7 @@
 <locationId>3820</locationId>
 <coord x="-113.3704977" y="53.47633057"/>
 <capacity-demand>1</capacity-demand>
-<duration>4.01578947504</duration>
+<duration>4.04447368558</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2675,7 +2675,7 @@
 <locationId>3820</locationId>
 <coord x="-113.3704977" y="53.47633057"/>
 <capacity-demand>1</capacity-demand>
-<duration>4.01578947504</duration>
+<duration>4.04447368558</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2688,7 +2688,7 @@
 <locationId>3840</locationId>
 <coord x="-113.455374" y="53.55040782"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.08842105104</duration>
+<duration>0.089052629976</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2701,7 +2701,7 @@
 <locationId>3840</locationId>
 <coord x="-113.455374" y="53.55040782"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.08842105104</duration>
+<duration>0.089052629976</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2714,7 +2714,7 @@
 <locationId>3956</locationId>
 <coord x="-113.4417001" y="53.54587179"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.41263158048</duration>
+<duration>0.415578948912</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2727,7 +2727,7 @@
 <locationId>3956</locationId>
 <coord x="-113.4417001" y="53.54587179"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.41263158048</duration>
+<duration>0.415578948912</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2740,7 +2740,7 @@
 <locationId>3957</locationId>
 <coord x="-113.4430194" y="53.53913614"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.99842105328</duration>
+<duration>1.00555263223</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2753,7 +2753,7 @@
 <locationId>3957</locationId>
 <coord x="-113.4430194" y="53.53913614"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.99842105328</duration>
+<duration>1.00555263223</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2766,7 +2766,7 @@
 <locationId>3958</locationId>
 <coord x="-113.4508733" y="53.53927859"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.27842105216</duration>
+<duration>1.2875526311</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2779,7 +2779,7 @@
 <locationId>3958</locationId>
 <coord x="-113.4508733" y="53.53927859"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.27842105216</duration>
+<duration>1.2875526311</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2792,7 +2792,7 @@
 <locationId>3959</locationId>
 <coord x="-113.4183825" y="53.53249873"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.32631578912</duration>
+<duration>1.33578947333</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2805,7 +2805,7 @@
 <locationId>3959</locationId>
 <coord x="-113.4183825" y="53.53249873"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.32631578912</duration>
+<duration>1.33578947333</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2818,7 +2818,7 @@
 <locationId>3974</locationId>
 <coord x="-113.3675824" y="53.50154929"/>
 <capacity-demand>1</capacity-demand>
-<duration>6.02000000112</duration>
+<duration>6.06300000113</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2831,7 +2831,7 @@
 <locationId>3974</locationId>
 <coord x="-113.3675824" y="53.50154929"/>
 <capacity-demand>1</capacity-demand>
-<duration>6.02000000112</duration>
+<duration>6.06300000113</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2844,7 +2844,7 @@
 <locationId>4011</locationId>
 <coord x="-113.4270686" y="53.53125177"/>
 <capacity-demand>1</capacity-demand>
-<duration>4.05263157936</duration>
+<duration>4.08157894778</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2857,7 +2857,7 @@
 <locationId>4011</locationId>
 <coord x="-113.4270686" y="53.53125177"/>
 <capacity-demand>1</capacity-demand>
-<duration>4.05263157936</duration>
+<duration>4.08157894778</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2870,7 +2870,7 @@
 <locationId>4012</locationId>
 <coord x="-113.4200985" y="53.53011833"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.36842105328</duration>
+<duration>0.371052632232</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2883,7 +2883,7 @@
 <locationId>4012</locationId>
 <coord x="-113.4200985" y="53.53011833"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.36842105328</duration>
+<duration>0.371052632232</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2896,7 +2896,7 @@
 <locationId>4075</locationId>
 <coord x="-113.4189642" y="53.52949572"/>
 <capacity-demand>1</capacity-demand>
-<duration>5.60000000112</duration>
+<duration>5.64000000113</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2909,7 +2909,7 @@
 <locationId>4075</locationId>
 <coord x="-113.4189642" y="53.52949572"/>
 <capacity-demand>1</capacity-demand>
-<duration>5.60000000112</duration>
+<duration>5.64000000113</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2922,7 +2922,7 @@
 <locationId>4091</locationId>
 <coord x="-113.4206097" y="53.55324426"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.88052631744</duration>
+<duration>0.886815791136</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -2935,7 +2935,7 @@
 <locationId>4091</locationId>
 <coord x="-113.4206097" y="53.55324426"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.88052631744</duration>
+<duration>0.886815791136</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -2948,7 +2948,7 @@
 <locationId>4179</locationId>
 <coord x="-113.4249695" y="53.53580303"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.6742105272</duration>
+<duration>0.67902631668</duration>
 <timeWindows>
 <timeWindow>
 <start>126.0</start>
@@ -2961,7 +2961,7 @@
 <locationId>4179</locationId>
 <coord x="-113.4249695" y="53.53580303"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.6742105272</duration>
+<duration>0.67902631668</duration>
 <timeWindows>
 <timeWindow>
 <start>294.0</start>
@@ -2974,7 +2974,7 @@
 <locationId>4179</locationId>
 <coord x="-113.4249695" y="53.53580303"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.6742105272</duration>
+<duration>0.67902631668</duration>
 <timeWindows>
 <timeWindow>
 <start>462.0</start>
@@ -2987,7 +2987,7 @@
 <locationId>4190</locationId>
 <coord x="-113.4579086" y="53.54654082"/>
 <capacity-demand>1</capacity-demand>
-<duration>7.77</duration>
+<duration>7.8255</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3000,7 +3000,7 @@
 <locationId>4190</locationId>
 <coord x="-113.4579086" y="53.54654082"/>
 <capacity-demand>1</capacity-demand>
-<duration>7.77</duration>
+<duration>7.8255</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3013,7 +3013,7 @@
 <locationId>4198</locationId>
 <coord x="-113.4470586" y="53.53804707"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.333684212</duration>
+<duration>1.3432105278</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3026,7 +3026,7 @@
 <locationId>4198</locationId>
 <coord x="-113.4470586" y="53.53804707"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.333684212</duration>
+<duration>1.3432105278</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3039,7 +3039,7 @@
 <locationId>4261</locationId>
 <coord x="-113.4235434" y="53.55571284"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.25684210656</duration>
+<duration>3.28010526446</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3052,7 +3052,7 @@
 <locationId>4261</locationId>
 <coord x="-113.4235434" y="53.55571284"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.25684210656</duration>
+<duration>3.28010526446</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3065,7 +3065,7 @@
 <locationId>4262</locationId>
 <coord x="-113.4190959" y="53.52051234"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.43105263264</duration>
+<duration>0.434131580016</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3078,7 +3078,7 @@
 <locationId>4262</locationId>
 <coord x="-113.4190959" y="53.52051234"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.43105263264</duration>
+<duration>0.434131580016</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3091,7 +3091,7 @@
 <locationId>4288</locationId>
 <coord x="-113.4397842" y="53.54958854"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.20263158048</duration>
+<duration>0.204078948912</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3104,7 +3104,7 @@
 <locationId>4288</locationId>
 <coord x="-113.4397842" y="53.54958854"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.20263158048</duration>
+<duration>0.204078948912</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3117,7 +3117,7 @@
 <locationId>4343</locationId>
 <coord x="-113.365765607" y="53.481596395"/>
 <capacity-demand>1</capacity-demand>
-<duration>5.9242105272</duration>
+<duration>5.96652631668</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3130,7 +3130,7 @@
 <locationId>4343</locationId>
 <coord x="-113.365765607" y="53.481596395"/>
 <capacity-demand>1</capacity-demand>
-<duration>5.9242105272</duration>
+<duration>5.96652631668</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3143,7 +3143,7 @@
 <locationId>4374</locationId>
 <coord x="-113.4300926" y="53.55668627"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.10315789344</duration>
+<duration>0.103894735536</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3156,7 +3156,7 @@
 <locationId>4374</locationId>
 <coord x="-113.4300926" y="53.55668627"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.10315789344</duration>
+<duration>0.103894735536</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3169,7 +3169,7 @@
 <locationId>4376</locationId>
 <coord x="-113.4590477" y="53.54609059"/>
 <capacity-demand>1</capacity-demand>
-<duration>6.55789473696</duration>
+<duration>6.60473684222</duration>
 <timeWindows>
 <timeWindow>
 <start>126.0</start>
@@ -3182,7 +3182,7 @@
 <locationId>4376</locationId>
 <coord x="-113.4590477" y="53.54609059"/>
 <capacity-demand>1</capacity-demand>
-<duration>6.55789473696</duration>
+<duration>6.60473684222</duration>
 <timeWindows>
 <timeWindow>
 <start>294.0</start>
@@ -3195,7 +3195,7 @@
 <locationId>4376</locationId>
 <coord x="-113.4590477" y="53.54609059"/>
 <capacity-demand>1</capacity-demand>
-<duration>6.55789473696</duration>
+<duration>6.60473684222</duration>
 <timeWindows>
 <timeWindow>
 <start>462.0</start>
@@ -3208,7 +3208,7 @@
 <locationId>439</locationId>
 <coord x="-113.4276558" y="53.55772552"/>
 <capacity-demand>1</capacity-demand>
-<duration>7.04789473584</duration>
+<duration>7.0982368411</duration>
 <timeWindows>
 <timeWindow>
 <start>126.0</start>
@@ -3221,7 +3221,7 @@
 <locationId>439</locationId>
 <coord x="-113.4276558" y="53.55772552"/>
 <capacity-demand>1</capacity-demand>
-<duration>7.04789473584</duration>
+<duration>7.0982368411</duration>
 <timeWindows>
 <timeWindow>
 <start>294.0</start>
@@ -3234,7 +3234,7 @@
 <locationId>439</locationId>
 <coord x="-113.4276558" y="53.55772552"/>
 <capacity-demand>1</capacity-demand>
-<duration>7.04789473584</duration>
+<duration>7.0982368411</duration>
 <timeWindows>
 <timeWindow>
 <start>462.0</start>
@@ -3247,7 +3247,7 @@
 <locationId>4396</locationId>
 <coord x="-113.4186068" y="53.52476798"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.11789473584</duration>
+<duration>0.118736841096</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3260,7 +3260,7 @@
 <locationId>4396</locationId>
 <coord x="-113.4186068" y="53.52476798"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.11789473584</duration>
+<duration>0.118736841096</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3273,7 +3273,7 @@
 <locationId>4398</locationId>
 <coord x="-113.3651641" y="53.50519941"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.4905263152</duration>
+<duration>2.50831578888</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3286,7 +3286,7 @@
 <locationId>4398</locationId>
 <coord x="-113.3651641" y="53.50519941"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.4905263152</duration>
+<duration>2.50831578888</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3299,7 +3299,7 @@
 <locationId>440</locationId>
 <coord x="-113.4230023" y="53.53588945"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.14368421088</duration>
+<duration>0.144710526672</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3312,7 +3312,7 @@
 <locationId>440</locationId>
 <coord x="-113.4230023" y="53.53588945"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.14368421088</duration>
+<duration>0.144710526672</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3325,7 +3325,7 @@
 <locationId>4437</locationId>
 <coord x="-113.4427549" y="53.54439071"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.95421052608</duration>
+<duration>0.961026315552</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3338,7 +3338,7 @@
 <locationId>4437</locationId>
 <coord x="-113.4427549" y="53.54439071"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.95421052608</duration>
+<duration>0.961026315552</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3351,7 +3351,7 @@
 <locationId>4452</locationId>
 <coord x="-113.4183455" y="53.51956079"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.21052631632</duration>
+<duration>2.22631579001</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3364,7 +3364,7 @@
 <locationId>4452</locationId>
 <coord x="-113.4183455" y="53.51956079"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.21052631632</duration>
+<duration>2.22631579001</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3377,7 +3377,7 @@
 <locationId>4456</locationId>
 <coord x="-113.4515283" y="53.54312455"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.65263157824</duration>
+<duration>2.67157894666</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3390,7 +3390,7 @@
 <locationId>4456</locationId>
 <coord x="-113.4515283" y="53.54312455"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.65263157824</duration>
+<duration>2.67157894666</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3403,7 +3403,7 @@
 <locationId>4471</locationId>
 <coord x="-113.3606443" y="53.46908585"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.19578947392</duration>
+<duration>2.21147368445</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3416,7 +3416,7 @@
 <locationId>4471</locationId>
 <coord x="-113.3606443" y="53.46908585"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.19578947392</duration>
+<duration>2.21147368445</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3429,7 +3429,7 @@
 <locationId>4489</locationId>
 <coord x="-113.4389523" y="53.53766041"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.03894736736</duration>
+<duration>1.04636841998</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3442,7 +3442,7 @@
 <locationId>4489</locationId>
 <coord x="-113.4389523" y="53.53766041"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.03894736736</duration>
+<duration>1.04636841998</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3455,7 +3455,7 @@
 <locationId>4522</locationId>
 <coord x="-113.435579" y="53.53949524"/>
 <capacity-demand>1</capacity-demand>
-<duration>5.8947368424</duration>
+<duration>5.93684210556</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3468,7 +3468,7 @@
 <locationId>4522</locationId>
 <coord x="-113.435579" y="53.53949524"/>
 <capacity-demand>1</capacity-demand>
-<duration>5.8947368424</duration>
+<duration>5.93684210556</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3481,7 +3481,7 @@
 <locationId>4533</locationId>
 <coord x="-113.3685041" y="53.4764141"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.31526315648</duration>
+<duration>1.32465789331</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3494,7 +3494,7 @@
 <locationId>4533</locationId>
 <coord x="-113.3685041" y="53.4764141"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.31526315648</duration>
+<duration>1.32465789331</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3507,7 +3507,7 @@
 <locationId>4546</locationId>
 <coord x="-113.4115501" y="53.51227905"/>
 <capacity-demand>1</capacity-demand>
-<duration>6.59473684128</duration>
+<duration>6.64184210443</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3520,7 +3520,7 @@
 <locationId>4546</locationId>
 <coord x="-113.4115501" y="53.51227905"/>
 <capacity-demand>1</capacity-demand>
-<duration>6.59473684128</duration>
+<duration>6.64184210443</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3533,7 +3533,7 @@
 <locationId>4556</locationId>
 <coord x="-113.4250088" y="53.54598543"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.79789473584</duration>
+<duration>1.8107368411</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3546,7 +3546,7 @@
 <locationId>4556</locationId>
 <coord x="-113.4250088" y="53.54598543"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.79789473584</duration>
+<duration>1.8107368411</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3559,7 +3559,7 @@
 <locationId>4557</locationId>
 <coord x="-113.422009" y="53.5410779"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.16421052608</duration>
+<duration>1.17252631555</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3572,7 +3572,7 @@
 <locationId>4557</locationId>
 <coord x="-113.422009" y="53.5410779"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.16421052608</duration>
+<duration>1.17252631555</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3585,7 +3585,7 @@
 <locationId>4562</locationId>
 <coord x="-113.4089197" y="53.55184294"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.4552631576</duration>
+<duration>1.46565789444</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3598,7 +3598,7 @@
 <locationId>4562</locationId>
 <coord x="-113.4089197" y="53.55184294"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.4552631576</duration>
+<duration>1.46565789444</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3611,7 +3611,7 @@
 <locationId>4576</locationId>
 <coord x="-113.4372789" y="53.53142729"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.22526315872</duration>
+<duration>2.24115789557</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3624,7 +3624,7 @@
 <locationId>4576</locationId>
 <coord x="-113.4372789" y="53.53142729"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.22526315872</duration>
+<duration>2.24115789557</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3637,7 +3637,7 @@
 <locationId>4578</locationId>
 <coord x="-113.4338686" y="53.54130736"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.6005263152</duration>
+<duration>0.60481578888</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3650,7 +3650,7 @@
 <locationId>4578</locationId>
 <coord x="-113.4338686" y="53.54130736"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.6005263152</duration>
+<duration>0.60481578888</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3663,7 +3663,7 @@
 <locationId>4583</locationId>
 <coord x="-113.4293798" y="53.53704906"/>
 <capacity-demand>1</capacity-demand>
-<duration>5.74736842176</duration>
+<duration>5.78842105334</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3676,7 +3676,7 @@
 <locationId>4583</locationId>
 <coord x="-113.4293798" y="53.53704906"/>
 <capacity-demand>1</capacity-demand>
-<duration>5.74736842176</duration>
+<duration>5.78842105334</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3689,7 +3689,7 @@
 <locationId>4586</locationId>
 <coord x="-113.432695" y="53.54272791"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.766315788</duration>
+<duration>0.7717894722</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3702,7 +3702,7 @@
 <locationId>4586</locationId>
 <coord x="-113.432695" y="53.54272791"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.766315788</duration>
+<duration>0.7717894722</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3715,7 +3715,7 @@
 <locationId>4587</locationId>
 <coord x="-113.4356632" y="53.54445082"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.136315788</duration>
+<duration>0.1372894722</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3728,7 +3728,7 @@
 <locationId>4587</locationId>
 <coord x="-113.4356632" y="53.54445082"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.136315788</duration>
+<duration>0.1372894722</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3741,7 +3741,7 @@
 <locationId>4588</locationId>
 <coord x="-113.440323" y="53.54615524"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.0442105272</duration>
+<duration>0.04452631668</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3754,7 +3754,7 @@
 <locationId>4588</locationId>
 <coord x="-113.440323" y="53.54615524"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.0442105272</duration>
+<duration>0.04452631668</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3767,7 +3767,7 @@
 <locationId>4604</locationId>
 <coord x="-113.4141054" y="53.54981941"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.92315789456</duration>
+<duration>1.93689473666</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3780,7 +3780,7 @@
 <locationId>4604</locationId>
 <coord x="-113.4141054" y="53.54981941"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.92315789456</duration>
+<duration>1.93689473666</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3793,7 +3793,7 @@
 <locationId>4622</locationId>
 <coord x="-113.4240793" y="53.54260113"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.16052631632</duration>
+<duration>1.16881579001</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3806,7 +3806,7 @@
 <locationId>4622</locationId>
 <coord x="-113.4240793" y="53.54260113"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.16052631632</duration>
+<duration>1.16881579001</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3819,7 +3819,7 @@
 <locationId>4623</locationId>
 <coord x="-113.4299653" y="53.54797208"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.6947368424</duration>
+<duration>1.70684210556</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3832,7 +3832,7 @@
 <locationId>4623</locationId>
 <coord x="-113.4299653" y="53.54797208"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.6947368424</duration>
+<duration>1.70684210556</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3845,7 +3845,7 @@
 <locationId>4625</locationId>
 <coord x="-113.44647" y="53.54312581"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.41473684352</duration>
+<duration>1.42484210669</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3858,7 +3858,7 @@
 <locationId>4625</locationId>
 <coord x="-113.44647" y="53.54312581"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.41473684352</duration>
+<duration>1.42484210669</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3871,7 +3871,7 @@
 <locationId>4626</locationId>
 <coord x="-113.4437936" y="53.54712329"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.47157894672</duration>
+<duration>0.474947367768</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3884,7 +3884,7 @@
 <locationId>4626</locationId>
 <coord x="-113.4437936" y="53.54712329"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.47157894672</duration>
+<duration>0.474947367768</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3897,7 +3897,7 @@
 <locationId>4643</locationId>
 <coord x="-113.4396051" y="53.54981994"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.5052631576</duration>
+<duration>2.52315789444</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3910,7 +3910,7 @@
 <locationId>4643</locationId>
 <coord x="-113.4396051" y="53.54981994"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.5052631576</duration>
+<duration>2.52315789444</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3923,7 +3923,7 @@
 <locationId>4651</locationId>
 <coord x="-113.4392846" y="53.55304255"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.23210526192</duration>
+<duration>0.233763156648</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3936,7 +3936,7 @@
 <locationId>4651</locationId>
 <coord x="-113.4392846" y="53.55304255"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.23210526192</duration>
+<duration>0.233763156648</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3949,7 +3949,7 @@
 <locationId>4653</locationId>
 <coord x="-113.4706388" y="53.53692936"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.00999999888</duration>
+<duration>3.03149999887</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3962,7 +3962,7 @@
 <locationId>4653</locationId>
 <coord x="-113.4706388" y="53.53692936"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.00999999888</duration>
+<duration>3.03149999887</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -3975,7 +3975,7 @@
 <locationId>4655</locationId>
 <coord x="-113.4712717" y="53.53852272"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.41263158048</duration>
+<duration>0.415578948912</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -3988,7 +3988,7 @@
 <locationId>4655</locationId>
 <coord x="-113.4712717" y="53.53852272"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.41263158048</duration>
+<duration>0.415578948912</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -4001,7 +4001,7 @@
 <locationId>4676</locationId>
 <coord x="-113.4080734" y="53.54972528"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.1794736848</duration>
+<duration>3.20218421112</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -4014,7 +4014,7 @@
 <locationId>4676</locationId>
 <coord x="-113.4080734" y="53.54972528"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.1794736848</duration>
+<duration>3.20218421112</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -4027,7 +4027,7 @@
 <locationId>4684</locationId>
 <coord x="-113.4393086" y="53.53412676"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.19736842064</duration>
+<duration>1.20592105222</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -4040,7 +4040,7 @@
 <locationId>4684</locationId>
 <coord x="-113.4393086" y="53.53412676"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.19736842064</duration>
+<duration>1.20592105222</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -4053,7 +4053,7 @@
 <locationId>5341</locationId>
 <coord x="-113.36515" y="53.47848138"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.7810526304</duration>
+<duration>0.78663157776</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -4066,7 +4066,7 @@
 <locationId>5341</locationId>
 <coord x="-113.36515" y="53.47848138"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.7810526304</duration>
+<duration>0.78663157776</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -4079,7 +4079,7 @@
 <locationId>568</locationId>
 <coord x="-113.4182013" y="53.51698107"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.25789473696</duration>
+<duration>0.259736842224</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -4092,7 +4092,7 @@
 <locationId>568</locationId>
 <coord x="-113.4182013" y="53.51698107"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.25789473696</duration>
+<duration>0.259736842224</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -4105,7 +4105,7 @@
 <locationId>590</locationId>
 <coord x="-113.4135622" y="53.55320893"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.99473684352</duration>
+<duration>1.00184210669</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -4118,7 +4118,7 @@
 <locationId>590</locationId>
 <coord x="-113.4135622" y="53.55320893"/>
 <capacity-demand>1</capacity-demand>
-<duration>0.99473684352</duration>
+<duration>1.00184210669</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -4131,7 +4131,7 @@
 <locationId>64</locationId>
 <coord x="-113.440336" y="53.53620179"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.77947368368</duration>
+<duration>1.79218420999</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -4144,7 +4144,7 @@
 <locationId>64</locationId>
 <coord x="-113.440336" y="53.53620179"/>
 <capacity-demand>1</capacity-demand>
-<duration>1.77947368368</duration>
+<duration>1.79218420999</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -4157,7 +4157,7 @@
 <locationId>9407</locationId>
 <coord x="-113.368790289" y="53.483973505"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.74842105216</duration>
+<duration>2.7680526311</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -4170,7 +4170,7 @@
 <locationId>9407</locationId>
 <coord x="-113.368790289" y="53.483973505"/>
 <capacity-demand>1</capacity-demand>
-<duration>2.74842105216</duration>
+<duration>2.7680526311</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>
@@ -4183,7 +4183,7 @@
 <locationId>994667</locationId>
 <coord x="-113.4725643" y="53.53440614"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.65105263152</duration>
+<duration>3.67713157889</duration>
 <timeWindows>
 <timeWindow>
 <start>6.0</start>
@@ -4196,7 +4196,7 @@
 <locationId>994667</locationId>
 <coord x="-113.4725643" y="53.53440614"/>
 <capacity-demand>1</capacity-demand>
-<duration>3.65105263152</duration>
+<duration>3.67713157889</duration>
 <timeWindows>
 <timeWindow>
 <start>270.0</start>

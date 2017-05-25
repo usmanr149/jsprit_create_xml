@@ -182,7 +182,7 @@
 <start>270</start>
 <end>278.75</end>
 </timeSchedule>
-<skills>neighbourhood</skills>
+<skills>roadway</skills>
 <returnToDepot>true</returnToDepot>
 </vehicle>
 <vehicle>

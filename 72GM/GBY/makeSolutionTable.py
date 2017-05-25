@@ -7,97 +7,100 @@ import time
 
 def getSolution(filename):
 
-	df = pd.DataFrame(columns = ['vehicle-Id', 'activity', 'job-Id', 'arrTime', 'endTime'])
+    df = pd.DataFrame(columns = ['vehicle-Id', 'activity', 'job-Id', 'arrTime', 'endTime'])
 
-	tree = ET.parse(filename)
-	root = tree.getroot()
+    tree = ET.parse(filename)
+    root = tree.getroot()
 
-	solutions = root.find('{http://www.w3schools.com}solutions')
-	solution = solutions.findall('{http://www.w3schools.com}solution')[0]
-	try:
-		routes = solution.findall('{http://www.w3schools.com}routes')[0]
-		route = routes.findall('{http://www.w3schools.com}route')
+    solutions = root.find('{http://www.w3schools.com}solutions')
+    solution = solutions.findall('{http://www.w3schools.com}solution')[0]
+    try:
+        routes = solution.findall('{http://www.w3schools.com}routes')[0]
+        route = routes.findall('{http://www.w3schools.com}route')
 
-		for r in route:
-			#print(r.find('{http://www.w3schools.com}vehicleId').text)
-			df = df.append(pd.DataFrame(columns = df.columns, data = [[r.find('{http://www.w3schools.com}vehicleId').text, 
-				'start', '', 
-				'undef', 0]]))
-			for details in r.findall('{http://www.w3schools.com}act'):
-				df = df.append(pd.DataFrame(columns = df.columns, data = [[r.find('{http://www.w3schools.com}vehicleId').text, 
-					'delivery', details.find('{http://www.w3schools.com}serviceId').text, 
-					details.find('{http://www.w3schools.com}arrTime').text, 
-					details.find('{http://www.w3schools.com}endTime').text]]))
-			df = df.append(pd.DataFrame(columns = df.columns, data = [[r.find('{http://www.w3schools.com}vehicleId').text, 
-				'end', '', 
-				details.find('{http://www.w3schools.com}endTime').text, 'undef']]))
-		return df
-	except IndexError:
-		return df
+        for r in route:
+            #print(r.find('{http://www.w3schools.com}vehicleId').text)
+            df = df.append(pd.DataFrame(columns = df.columns, data = [[r.find('{http://www.w3schools.com}vehicleId').text,
+                'start', '',
+                'undef', 0]]))
+            for details in r.findall('{http://www.w3schools.com}act'):
+                df = df.append(pd.DataFrame(columns = df.columns, data = [[r.find('{http://www.w3schools.com}vehicleId').text,
+                    'delivery', details.find('{http://www.w3schools.com}serviceId').text,
+                    details.find('{http://www.w3schools.com}arrTime').text,
+                    details.find('{http://www.w3schools.com}endTime').text]]))
+            df = df.append(pd.DataFrame(columns = df.columns, data = [[r.find('{http://www.w3schools.com}vehicleId').text,
+                'end', '',
+                details.find('{http://www.w3schools.com}endTime').text, 'undef']]))
+        return df
+    except IndexError:
+        return df
 
 def getUnassignedJobs(filename):
 
-	uJobs = []
+    uJobs = []
 
-	tree = ET.parse(filename)
-	root = tree.getroot()
+    tree = ET.parse(filename)
+    root = tree.getroot()
 
-	solutions = root.find('{http://www.w3schools.com}solutions')
-	solution = solutions.findall('{http://www.w3schools.com}solution')[1]
-	try:
-		unassignedJobs = solution.findall('{http://www.w3schools.com}unassignedJobs')[0]
-	except IndexError:
-		return ["nothing_here_folks"]
+    solutions = root.find('{http://www.w3schools.com}solutions')
+    solution = solutions.findall('{http://www.w3schools.com}solution')[1]
+    try:
+        unassignedJobs = solution.findall('{http://www.w3schools.com}unassignedJobs')[0]
+    except IndexError:
+        return ["nothing_here_folks"]
 
-	for i in unassignedJobs.iter():
-		zig = dict(i.attrib)
-		try:
-			uJobs.append(list(zig.values())[0])
-		except IndexError:
-			pass
-	print(len(uJobs))
-	return uJobs
+    for i in unassignedJobs.iter():
+        zig = dict(i.attrib)
+        try:
+            uJobs.append(list(zig.values())[0])
+        except IndexError:
+            pass
+    print(len(uJobs))
+    return uJobs
 
 
 def getUnassigned(filename):
 
-	df = pd.read_csv('../Data/ODL_Inputs_72GM.csv')
+    df = pd.read_csv('../Data/ODL_Inputs_72GM.csv')
 
-	unassignedJobs = getUnassignedJobs(filename)
-	df_solution = getSolution(filename)
+    unassignedJobs = getUnassignedJobs(filename)
+    df_solution = getSolution(filename)
 
-	###This gives the the list of unassigned jobs for the particular day
-	df_updates = df[df['Id'].isin(unassignedJobs)]
+    ###This gives the the list of unassigned jobs for the particular day
+    df_updates = df[df['Id'].isin(unassignedJobs)]
 
-	##Get the assigned jobs as well
-	df_assigned = df[~df['Id'].isin(unassignedJobs)]
+    ##Get the assigned jobs as well
+    df_assigned = df[~df['Id'].isin(unassignedJobs)]
 
-	unassignedJobs = [raw_id.split("_")[0] for raw_id in unassignedJobs]
-	assignedJobs = np.array(df_solution['job-Id'])
-	assignedJobs = [raw_id.split("_")[0] for raw_id in assignedJobs]
-	# print(assignedJobs)
+    unassignedJobs = [raw_id.split("_")[0] for raw_id in unassignedJobs]
+    assignedJobs = np.array(df_solution['job-Id'])
+    assignedJobs = [raw_id.split("_")[0] for raw_id in assignedJobs]
+    # print(assignedJobs)
 
-	df_updates['raw_id'] = df_updates['Id'].apply(lambda x: x.split("_")[0])
+    df_updates['raw_id'] = df_updates['Id'].apply(lambda x: x.split("_")[0])
 
-	df_solution = df_solution[df_solution['activity'] == 'delivery']
-	df_solution['raw_id'] = df_solution['job-Id'].apply(lambda x: x.split("_")[0])
-	df_solution['Day'] = df_solution['arrTime'].apply(lambda x: int(float(x) / 24))
-	df_updates = df_updates.merge(df_solution[['raw_id', 'Day']], on='raw_id', how='left')
+    df_solution = df_solution[df_solution['activity'] == 'delivery']
+    df_solution['raw_id'] = df_solution['job-Id'].apply(lambda x: x.split("_")[0])
+    df_solution['Day'] = df_solution['arrTime'].apply(lambda x: int(float(x) / 24))
+    df_updates = df_updates.merge(df_solution[['raw_id', 'Day']], on='raw_id', how='left')
 
-	df_updates = df_updates.drop_duplicates(subset=['Id'])
+    df_updates = df_updates.drop_duplicates(subset=['Id'])
 
-	return df_updates
+    return df_updates
 
 if __name__ == "__main__":
-	# for i in range(2):
-	# 	filename = '/home/usman/jsprit/jsprit-examples/output/usman_data_' + str(i) + '.xml'
-	# 	try:
-	# 		df = df.append(getSolution(filename))
-	# 	except NameError:
-	# 		df = getSolution(filename)
+    # for i in range(2):
+    # 	filename = '/home/usman/jsprit/jsprit-examples/output/usman_data_' + str(i) + '.xml'
+    # 	try:
+    # 		df = df.append(getSolution(filename))
+    # 	except NameError:
+    # 		df = getSolution(filename)
 
     filename = 'GBY_solution.xml'
     df = getSolution(filename)
+
+    print (getUnassigned(filename))
+
     df.to_csv('GBY_solution.csv', index=False)
 
     #unassigned vehicle

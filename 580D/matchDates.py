@@ -31,11 +31,28 @@ def matchDates(filename, df_580D):
 
 if __name__ == "__main__":
 
-    filename = '../../72GM/Data/72GM_solution_all_yards.csv'
+    filename = '../72GM/Data/72GM_solution_all_yards.csv'
 
-    df_580D = pd.read_csv('../Data/ODL_Input_clustered_580D.csv')
+    df = pd.read_csv('../72GM/ASY/ASY_solution.csv')
+
+    df = df.append(pd.read_csv('../72GM/DON/DON_solution.csv'))
+    df = df.append(pd.read_csv('../72GM/GBY/GBY_solution.csv'))
+    df = df.append(pd.read_csv('../72GM/MWD/MWD_neighbourhood_solution.csv'))
+    df = df.append(pd.read_csv('../72GM/MWD/MWD_roadway_solution.csv'))
+    df = df.append(pd.read_csv('../72GM/OKY/OKY_solution.csv'))
+    df = df.append(pd.read_csv('../72GM/RBV/RBV_solution.csv'))
+
+    print(len(df))
+
+    df.to_csv(filename)
+
+    df_580D = pd.read_csv('Data/ODL_Inputs_580D.csv')
+    print(len(df_580D))
 
     #update the 580D Inputs
-    df_580D = matchDates(filename, df_580D)
+    #df_580D = matchDates(filename, df_580D)
 
-    df_580D.to_csv('../Data/ODL_Input_clustered_580D.csv', index=False)
+    df_580D.drop_duplicates(subset=['Id'], inplace=True)
+
+    df_580D.to_csv('Data/ODL_Inputs_580D.csv', index=False)
+    print(len(df_580D))

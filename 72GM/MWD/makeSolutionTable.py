@@ -97,21 +97,23 @@ if __name__ == "__main__":
 	# 	except NameError:
 	# 		df = getSolution(filename)
 
-    filename = 'MWD_neighbourhood_solution.xml'
-    df = getSolution(filename)
-    df.to_csv('MWD_solution.csv', index=False)
+	filename = 'MWD_roadway_solution.xml'
+	df = getSolution(filename)
+	df.to_csv('MWD_roadway_solution.csv', index=False)
 
-    #unassigned vehicle
-    veh_used = df['vehicle-Id'].unique()
-    print("veh_used = ", len(veh_used))
-    df_veh = pd.read_csv('../Data/72GM_vehicles.csv')
+	print(getUnassigned(filename))
 
-    #get raw-id
-    df_veh['raw_v-id'] = df_veh['vehicle-id'].apply(lambda x: x.split("-")[0])
+	#unassigned vehicle
+	veh_used = df['vehicle-Id'].unique()
+	print("veh_used = ", len(veh_used))
+	df_veh = pd.read_csv('../Data/72GM_vehicles.csv')
 
-    df_veh = df_veh[(df_veh['raw_v-id'] == "MWD") & (df_veh['skills'] == 'neighbourhood')]
+	#get raw-id
+	df_veh['raw_v-id'] = df_veh['vehicle-id'].apply(lambda x: x.split("-")[0])
 
-    print(df_veh[~df_veh['vehicle-id'].isin(veh_used)]['vehicle-id'])
+	df_veh = df_veh[(df_veh['raw_v-id'] == "MWD") & (df_veh['skills'] == 'roadway')]
+
+	print(df_veh[~df_veh['vehicle-id'].isin(veh_used)]['vehicle-id'])
 
 '''
 df = pd.DataFrame(columns = ['vehicle-Id', 'activity', 'job-Id', 'arrTime', 'endTime'])

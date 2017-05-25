@@ -134,8 +134,8 @@ def getUnassignedJobs(filename):
 def to_xml_turfs(df, filename=None, mode='w', start=0):
     print("Input: ", len(df))
 
-    print(df[df['required-skills'] =='neighbourhood']['service-duration'].sum()*24)
-    print(df[df['required-skills'] =='roadway']['service-duration'].sum()*24)
+    print(df[df['required-skills'] =='neighbourhood']['service-duration'].sum())
+    print(df[df['required-skills'] =='roadway']['service-duration'].sum())
     def row_to_xml(row):
         xml = ["<service id='{0}' type='delivery'>".format(row['Id'])]
         xml.append('<locationId>{0}</locationId>'.format(str(row['raw-Id'])))
@@ -143,20 +143,24 @@ def to_xml_turfs(df, filename=None, mode='w', start=0):
         xml.append('<capacity-demand>1</capacity-demand>')
         #play around with the multiplicative factor to make sure all or almost all the stops are serviced and all or almost vehicles are used.
         #don't make it too small or large, I found 0.85 ato 1.05 is a good range. Try to stay within that.
-        xml.append('<duration>{0}</duration>'.format(row['service-duration']*24*1.0))
+        xml.append('<duration>{0}</duration>'.format(row['service-duration']*0.65))
         xml.append('<timeWindows>')
         xml.append('<timeWindow>')
-        if row['Level'] == 'B1':
-            if row['Id'].split("_")[1] == "0" or row['Id'].split("_")[2] == "0":
-                start_at = fix_time("0d 06:00:00")
-                end_at = fix_time("12d 14:45:00")
-                xml.append('<start>{0}</start>'.format(start_at))
-                xml.append('<end>{0}</end>'.format(end_at))
+        if int(row['start-time'] / 24) != int(row['end-time'] / 24):
+            if row['Level'] == 'B1':
+                if row['Id'].split("_")[1] == "0" or row['Id'].split("_")[2] == "0":
+                    start_at = fix_time("0d 06:00:00")
+                    end_at = fix_time("9d 14:45:00")
+                    xml.append('<start>{0}</start>'.format(start_at))
+                    xml.append('<end>{0}</end>'.format(end_at))
+                else:
+                    start_at = fix_time("10d 06:00:00")
+                    end_at = fix_time("20d 14:45:00")
+                    xml.append('<start>{0}</start>'.format(start_at))
+                    xml.append('<end>{0}</end>'.format(end_at))
             else:
-                start_at = fix_time("13d 06:00:00")
-                end_at = fix_time("20d 14:45:00")
-                xml.append('<start>{0}</start>'.format(start_at))
-                xml.append('<end>{0}</end>'.format(end_at))
+                xml.append('<start>{0}</start>'.format(row['start-time']))
+                xml.append('<end>{0}</end>'.format(row['end-time']))
         else:
             xml.append('<start>{0}</start>'.format(row['start-time']))
             xml.append('<end>{0}</end>'.format(row['end-time']))

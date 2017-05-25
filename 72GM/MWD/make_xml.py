@@ -150,7 +150,7 @@ def to_xml_turfs(df, filename=None, mode='w', required_skill='neighbourhood'):
         xml.append('<capacity-demand>1</capacity-demand>')
         #xml.append('<priority>1</priority>'.format(row['priority']))
         if row['required-skills'] == 'roadway':
-            xml.append('<duration>{0}</duration>'.format(row['service-duration']*24*0.9))
+            xml.append('<duration>{0}</duration>'.format(row['service-duration']*24*0.93))
         else:
             xml.append('<duration>{0}</duration>'.format(row['service-duration'] * 24))
         xml.append('<timeWindows>')

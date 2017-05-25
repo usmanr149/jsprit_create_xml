@@ -142,7 +142,7 @@ def to_xml_turfs(df, filename=None, mode='w', start=0):
         xml.append('<coord x="{0}" y="{1}"/>'.format(row['longitude'], row['latitude']))
         xml.append('<capacity-demand>1</capacity-demand>')
         #xml.append('<priority>1</priority>'.format(row['priority']))
-        xml.append('<duration>{0}</duration>'.format(row['service-duration']*24*1.4))
+        xml.append('<duration>{0}</duration>'.format(row['service-duration']*24*1.41))
         xml.append('<timeWindows>')
         xml.append('<timeWindow>')
         xml.append('<start>{0}</start>'.format(row['start-time']))
